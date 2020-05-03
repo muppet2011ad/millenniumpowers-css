@@ -220,6 +220,10 @@ div.content {
     color: black
 }
 
+.side {
+    background: #38302E;
+}
+
 .side .flairselector {
     left: auto!important;
     right: 600px
@@ -2020,7 +2024,7 @@ div.content {
 
 ::selection {
     background-color: #3399ff;
-    color: #CCDAD1
+    color: #E9F2E9
 }
 
 ::-webkit-scrollbar {
@@ -2115,11 +2119,11 @@ button:active {
 
 .tagline a,
 .side a {
-    color: #5e82a6
+    color: #83aad1
 }
 
 .usertext-body .md a {
-    color: #5e82a6
+    color: #83aad1
 }
 
 .usertext-body .md h1,.usertext-body .md h2,.usertext-body .md h3,.usertext-body .md h4,.usertext-body .md h5,.usertext-body .md h6{
@@ -2434,7 +2438,7 @@ span.hover.pagename.redditname {
 }
 
 .thing a.title {
-    color: #4f85ac
+    color: #83aad1
 }
 
 .thing a.title:hover {
@@ -2889,7 +2893,8 @@ a.thumbnail.self {
     border-bottom: 1px solid #788585;
     width: 507px;
     padding-bottom: 5px;
-    margin-bottom: 5px
+    margin-bottom: 5px;
+    color: #CCDAD1
 }
 
 .linkinfo {
@@ -2904,7 +2909,7 @@ a.thumbnail.self {
 }
 
 .linkinfo .score {
-    color: #9CAEA9
+    color: #CCDAD1!important
 }
 
 .linkinfo .shortlink {
@@ -3119,7 +3124,7 @@ body.submit-page {
 }
 
 .side .md blockquote a {
-    color: #5e82a6
+    color: #83aad1
 }
 
 .side .md ul {
@@ -5054,7 +5059,7 @@ html[lang^="nm"] .res #RESStyleSheetTipPane-header {
 }
 
 .wiki-page .wiki a {
-    color: #5e82a6
+    color: #83aad1
 }
 
 .wiki-page .wiki-page-content hr {
@@ -5066,6 +5071,14 @@ html[lang^="nm"] .res #RESStyleSheetTipPane-header {
     border: 1px solid #788585;
     box-shadow: 0 0 8px #6F6866;
     border-radius: 2px
+}
+
+.wiki-page .wiki-page-content h2 {
+    color: #3b77b2    
+}
+
+em a.author {
+    color: #83aad1
 }
 
 .linkflair-invalid .linkflairlabel {
@@ -5427,4 +5440,29 @@ div.titlebox .md h3 a {
 .side h4,
 .side h2 {
     text-align: center
+}
+
+.access-required.choice, .reddit-moderators.choice {
+    background: #38302E
+}
+
+a.option.active {
+    color: #83aad1
+}
+
+span.score {
+    color: #CCDAD1!important
+}
+
+.titlebox .bottom {
+    color: #E9F2E9;
+    background: #6F6866
+}
+
+.reddit-infobar .md p {
+    color: #38302E;
+}
+
+.content h2 a{
+    color: #4985c2
 }
