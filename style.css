@@ -2278,11 +2278,12 @@ input[type=password]:focus {
 
 .pagename a {
     display: block;
-    width: 230px;
-    height: 138px;
-    /* background: url("//b.thumbs.redditmedia.com/1kWaE41Fs1XTRMQjSiNg09kVulhk2bBJz0PIjf-aKhI.png") no-repeat; */
+    width: 1161px;
+    height: 258px;
+    transform: scale(0.6, 0.6);
+    background: url("%%logo%%") no-repeat;
     font-size: 0;
-    margin: -25px auto 0px auto!important
+    margin: -70px auto 0px auto!important
 }
 
 span.hover.pagename.redditname {
