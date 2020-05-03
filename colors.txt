@@ -1,0 +1,8 @@
+Text: E9F2E9
+Dark text: CCDAD1
+Bg: 38302E
+Light bg: 5c4f4c
+Border: 788585
+Selection: B75CCC
+Button: 6F6866
+Link: 83aad1
