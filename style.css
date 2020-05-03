@@ -1,0 +1,5406 @@
+.premium-banner {
+    display: none
+}
+
+.titlebox .md h6 {
+    position: absolute;
+    text-decoration: none;
+    top: 192px;
+    left: 16px;
+    right: 353px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 2000px 55px;
+    background-position: center center;
+    border-style: inset;
+    border-width: 2px;
+    border-color: #20d0e8;
+    color: #000;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.titlebox .md h6 strong {
+    display: block;
+    text-indent: 100%;
+    -webkit-animation: ticker 30s linear infinite;
+    animation: ticker 30s linear infinite;
+    font-size: 19px
+}
+
+@-webkit-keyframes ticker {
+    0%,
+    98% {
+        text-indent: 100%
+    }
+    95% {
+        opacity: 1;
+        text-indent: -910px
+    }
+    96% {
+        opacity: 0;
+        text-indent: -910px
+    }
+    97%,
+    99% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@keyframes ticker {
+    0%,
+    98% {
+        text-indent: 100%
+    }
+    95% {
+        opacity: 1;
+        text-indent: -910px
+    }
+    96% {
+        opacity: 0;
+        text-indent: -910px
+    }
+    97%,
+    99% {
+        opacity: 0
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+.content {
+    margin-top: 84px
+}
+
+.subscribers .word {
+    display: none
+}
+
+.subscribers .number::after {
+    content: " Monarchists Proliferating"
+}
+
+.users-online .word {
+    display: none
+}
+
+.users-online .number::after {
+    content: " Unwieldy Coalition Wars"
+}
+
+.link .down {
+    display: none
+}
+
+.down {
+    display: none
+}
+
+a[href$="/spoiler"] {
+    background: #000!important;
+    color: #000!important
+}
+
+a[href$="/spoiler"]:hover {
+    color: #FFF!important
+}
+
+div.content {
+    margin-top: 80px
+}
+
+.titlebox form {
+    position: static
+}
+
+.titlebox blockquote:first-child {
+    border-left: none;
+    position: absolute;
+    z-index: 10;
+    top: 70px;
+    left: 40px
+}
+
+.titlebox blockquote:first-child p:first-child {
+    margin-top: 0px;
+    padding: 5px;
+    float: left;
+    font-size: 12pt;
+    background: #eff7ff;
+    border: 1px solid #cee3f8;
+    font-weight: bold;
+    color: #555;
+    cursor: default
+}
+
+.titlebox blockquote ul {
+    float: right;
+    padding: 1px;
+    background: #eff7ff;
+    border: 1px solid #cee3f8;
+    margin: 0px
+}
+
+.titlebox blockquote ul li {
+    display: none;
+    padding: 2px;
+    text-align: center
+}
+
+.titlebox blockquote li a {
+    display: block
+}
+
+.titlebox blockquote ul li:first-child,
+.titlebox blockquote ul:hover li {
+    display: block
+}
+
+.titlebox blockquote ul li {
+    padding: 100px
+}
+
+.titlebox blockquote li:first-child {
+    font-size: 12pt;
+    padding: 4px;
+    cursor: default
+}
+
+.titlebox blockquote:first-child ul li:hover {
+    background: #ffffff
+}
+
+.titlebox blockquote li a:hover {
+    color: orangered
+}
+
+.titlebox blockquote ul:nth-of-type(1) {
+    width: 100px
+}
+
+.titlebox blockquote ul:nth-of-type(2) {
+    width: 100px
+}
+
+.flair {
+    text-indent: -9999px;
+    margin-right: 3px;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-image: url("//b.thumbs.redditmedia.com/V9VYyjkhxpGxoa66jSWvobeJA_2bV9GN6_imkuwOlAo.png");
+    vertical-align: middle;
+    border-width: 1;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    padding: 0;
+    background-color: transparent;
+    cursor: help;
+    border-radius: 0px
+}
+
+.flair:hover {
+    width: auto;
+    text-indent: 0;
+    background-image: none;
+    font-weight: bold;
+    line-height: auto;
+    margin: 0 3px;
+    color: black
+}
+
+.side .flairselector {
+    left: auto!important;
+    right: 600px
+}
+
+.flair {
+    background: url("//b.thumbs.redditmedia.com/V9VYyjkhxpGxoa66jSWvobeJA_2bV9GN6_imkuwOlAo.png") no-repeat -9999px;
+    border: 0;
+    padding: 0
+}
+
+.flair-abkhazia {
+    width: 32px;
+    height: 22px;
+    background-position: 0 0
+}
+
+.flair-afghanistan {
+    width: 32px;
+    height: 22px;
+    background-position: -32px 0
+}
+
+.flair-albania {
+    width: 32px;
+    height: 22px;
+    background-position: -64px 0
+}
+
+.flair-algeria {
+    width: 32px;
+    height: 22px;
+    background-position: -96px 0
+}
+
+.flair-americansamoa {
+    width: 32px;
+    height: 22px;
+    background-position: -128px 0
+}
+
+.flair-andorra {
+    width: 32px;
+    height: 22px;
+    background-position: -160px 0
+}
+
+.flair-angola {
+    width: 32px;
+    height: 22px;
+    background-position: -192px 0
+}
+
+.flair-anguilla {
+    width: 32px;
+    height: 22px;
+    background-position: -224px 0
+}
+
+.flair-antigua {
+    width: 32px;
+    height: 22px;
+    background-position: -256px 0
+}
+
+.flair-argentina {
+    width: 32px;
+    height: 22px;
+    background-position: -288px 0
+}
+
+.flair-armenia {
+    width: 32px;
+    height: 22px;
+    background-position: -320px 0
+}
+
+.flair-aruba {
+    width: 32px;
+    height: 22px;
+    background-position: -352px 0
+}
+
+.flair-australia {
+    width: 32px;
+    height: 22px;
+    background-position: -416px 0
+}
+
+.flair-austria {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -22px
+}
+
+.flair-azerbaijan {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -22px
+}
+
+.flair-bahamas {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -22px
+}
+
+.flair-bahrain {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -22px
+}
+
+.flair-bangladesh {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -22px
+}
+
+.flair-barbados {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -22px
+}
+
+.flair-belarus {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -22px
+}
+
+.flair-belgium {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -22px
+}
+
+.flair-belize {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -22px
+}
+
+.flair-benin {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -22px
+}
+
+.flair-bermuda {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -22px
+}
+
+.flair-bhutan {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -22px
+}
+
+.flair-bolivia {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -22px
+}
+
+.flair-bosnia {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -22px
+}
+
+.flair-botswana {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -44px
+}
+
+.flair-brazil {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -44px
+}
+
+.flair-brunei {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -44px
+}
+
+.flair-bulgaria {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -44px
+}
+
+.flair-burkinafaso {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -44px
+}
+
+.flair-burma {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -44px
+}
+
+.flair-burundi {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -44px
+}
+
+.flair-cambodia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -44px
+}
+
+.flair-cameroon {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -44px
+}
+
+.flair-eaf {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -44px
+}
+
+.flair-canada {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -66px
+}
+
+.flair-cape-verde {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -44px
+}
+
+.flair-catalonia {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -66px
+}
+
+.flair-catalonia-alt {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -66px
+}
+
+.flair-caymanislands {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -66px
+}
+
+.flair-centralafricanrepublic {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -66px
+}
+
+.flair-chad {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -66px
+}
+
+.flair-chile {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -66px
+}
+
+.flair-china {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -66px
+}
+
+.flair-chrismasislands {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -66px
+}
+
+.flair-colombia {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -66px
+}
+
+.flair-comoros {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -66px
+}
+
+.flair-congo {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -66px
+}
+
+.flair-cookislands {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -88px
+}
+
+.flair-costarica {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -88px
+}
+
+.flair-croatia {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -88px
+}
+
+.flair-cuba {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -88px
+}
+
+.flair-cyprus {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -88px
+}
+
+.flair-czech {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -88px
+}
+
+.flair-denmark {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -88px
+}
+
+.flair-djibouti {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -88px
+}
+
+.flair-dominica {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -88px
+}
+
+.flair-dominicanrep {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -110px
+}
+
+.flair-drcongo {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -110px
+}
+
+.flair-ecuador {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -110px
+}
+
+.flair-basque {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -110px
+}
+
+.flair-egypt {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -132px
+}
+
+.flair-elsalvador {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -132px
+}
+
+.flair-england {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -132px
+}
+
+.flair-equatorialguinea {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -132px
+}
+
+.flair-eritrea {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -132px
+}
+
+.flair-estonia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -132px
+}
+
+.flair-ethiopia {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -132px
+}
+
+.flair-egyptalt {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -44px
+}
+
+.flair-frmorocco {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -44px
+}
+
+.flair-falklands {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -154px
+}
+
+.flair-faroeislands {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -154px
+}
+
+.flair-fiji {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -154px
+}
+
+.flair-finland {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -154px
+}
+
+.flair-france {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -154px
+}
+
+.flair-gabon {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -154px
+}
+
+.flair-gambia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -154px
+}
+
+.flair-georgia {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -154px
+}
+
+.flair-germany {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -154px
+}
+
+.flair-ghana {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -154px
+}
+
+.flair-gibraltar {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -154px
+}
+
+.flair-greece {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -176px
+}
+
+.flair-greenland {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -176px
+}
+
+.flair-grenada {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -176px
+}
+
+.flair-guadeloupe {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -176px
+}
+
+.flair-guam {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -176px
+}
+
+.flair-guatemala {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -176px
+}
+
+.flair-guinea {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -176px
+}
+
+.flair-guineabissau {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -176px
+}
+
+.flair-guyana {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -176px
+}
+
+.flair-haiti {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -176px
+}
+
+.flair-honduras {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -198px
+}
+
+.flair-hongkong {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -198px
+}
+
+.flair-hungary {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -198px
+}
+
+.flair-iceland {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -198px
+}
+
+.flair-india {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -198px
+}
+
+.flair-indonesia {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -198px
+}
+
+.flair-iran {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -198px
+}
+
+.flair-iran-alt {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -132px
+}
+
+.flair-ethiopia-alt {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -110px
+}
+
+.flair-iraq-kingdom {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -110px
+}
+
+.flair-iraq {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -198px
+}
+
+.flair-ireland {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -198px
+}
+
+.flair-islamicstate {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -198px
+}
+
+.flair-israel {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -220px
+}
+
+.flair-italy {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -220px
+}
+
+.flair-ivorycoast {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -220px
+}
+
+.flair-jamaica {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -220px
+}
+
+.flair-japan {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -220px
+}
+
+.flair-jordan {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -220px
+}
+
+.flair-kazakhstan {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -220px
+}
+
+.flair-kenya {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -220px
+}
+
+.flair-kiribati {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -220px
+}
+
+.flair-kosovo {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -220px
+}
+
+.flair-kurdistan {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -220px
+}
+
+.flair-kuwait {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -220px
+}
+
+.flair-kyrgystan {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -220px
+}
+
+.flair-laos {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -220px
+}
+
+.flair-laosandvietnam {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -242px
+}
+
+.flair-latvia {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -242px
+}
+
+.flair-lebanon {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -242px
+}
+
+.flair-southyemen {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -242px
+}
+
+.flair-lesotho {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -242px
+}
+
+.flair-liberia {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -242px
+}
+
+.flair-libya {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -242px
+}
+
+.flair-liechtenstein {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -242px
+}
+
+.flair-lithuania {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -242px
+}
+
+.flair-luxembourg {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -242px
+}
+
+.flair-macau {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -242px
+}
+
+.flair-macedonia {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -242px
+}
+
+.flair-madagascar {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -264px
+}
+
+.flair-malawi {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -264px
+}
+
+.flair-malaysia {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -264px
+}
+
+.flair-maldives {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -264px
+}
+
+.flair-mali {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -264px
+}
+
+.flair-malta {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -264px
+}
+
+.flair-manx {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -264px
+}
+
+.flair-marshallislands {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -264px
+}
+
+.flair-martinique {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -264px
+}
+
+.flair-mauritania {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -264px
+}
+
+.flair-mauritus {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -264px
+}
+
+.flair-mexico {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -264px
+}
+
+.flair-micronesia {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -264px
+}
+
+.flair-quebec {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -198px
+}
+
+.flair-moldova {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -286px
+}
+
+.flair-monaco {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -286px
+}
+
+.flair-mongolia {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -286px
+}
+
+.flair-montenegro {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -286px
+}
+
+.flair-montserrat {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -286px
+}
+
+.flair-morocco {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -286px
+}
+
+.flair-mozambique {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -286px
+}
+
+.flair-myanmar {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -286px
+}
+
+.flair-namibia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -286px
+}
+
+.flair-nauru {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -286px
+}
+
+.flair-nepal {
+    width: 32px;
+    height: 21px;
+    background-position: -384px -287px
+}
+
+.flair-netherlands {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -286px
+}
+
+.flair-netherlandsantilles {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -308px
+}
+
+.flair-newcaledonia {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -308px
+}
+
+.flair-newzealand {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -308px
+}
+
+.flair-nicaragua {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -308px
+}
+
+.flair-niger {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -308px
+}
+
+.flair-nigeria {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -308px
+}
+
+.flair-niue {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -308px
+}
+
+.flair-norfolkisland {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -308px
+}
+
+.flair-northernireland {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -308px
+}
+
+.flair-northkorea {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -308px
+}
+
+.flair-northmarianaisles {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -308px
+}
+
+.flair-norway {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -330px
+}
+
+.flair-novorossiya {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -330px
+}
+
+.flair-oman {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -330px
+}
+
+.flair-pakistan {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -330px
+}
+
+.flair-palau {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -330px
+}
+
+.flair-panama {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -330px
+}
+
+.flair-papuanewguinea {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -330px
+}
+
+.flair-paraguay {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -330px
+}
+
+.flair-peru {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -330px
+}
+
+.flair-philippines {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -330px
+}
+
+.flair-pitcairnislands {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -330px
+}
+
+.flair-poland {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -330px
+}
+
+.flair-portugal {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -352px
+}
+
+.flair-persia {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -352px
+}
+
+.flair-puertorico {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -352px
+}
+
+.flair-qatar {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -352px
+}
+
+.flair-romania {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -352px
+}
+
+.flair-russia {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -352px
+}
+
+.flair-rwanda {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -352px
+}
+
+.flair-saintkittsandnevis {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -352px
+}
+
+.flair-samoa {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -352px
+}
+
+.flair-sanmarino {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -352px
+}
+
+.flair-saotomeandprincipe {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -352px
+}
+
+.flair-saudiarabia {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -352px
+}
+
+.flair-saudiarabiaalt {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -198px
+}
+
+.flair-scotland {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -374px
+}
+
+.flair-senegal {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -374px
+}
+
+.flair-serbia {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -374px
+}
+
+.flair-seychelles {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -374px
+}
+
+.flair-sierraleone {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -374px
+}
+
+.flair-singapore {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -374px
+}
+
+.flair-slovakia {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -374px
+}
+
+.flair-slovenia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -374px
+}
+
+.flair-solomonislands {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -374px
+}
+
+.flair-somalia {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -374px
+}
+
+.flair-southafrica {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -374px
+}
+
+.flair-southkorea {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -374px
+}
+
+.flair-southossetia {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -396px
+}
+
+.flair-southsudan {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -396px
+}
+
+.flair-spain {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -396px
+}
+
+.flair-srilanka {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -396px
+}
+
+.flair-sthelena {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -396px
+}
+
+.flair-stlucia {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -396px
+}
+
+.flair-stvincentgrenadines {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -396px
+}
+
+.flair-sudan {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -396px
+}
+
+.flair-suriname {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -396px
+}
+
+.flair-swaziland {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -396px
+}
+
+.flair-sweden {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -396px
+}
+
+.flair-switzerland {
+    width: 23px;
+    height: 22px;
+    background-position: -389px -396px
+}
+
+.flair-syria {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -396px
+}
+
+.flair-somaliland {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -396px
+}
+
+.flair-taiwan {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -418px
+}
+
+.flair-tajikistan {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -418px
+}
+
+.flair-tanzania {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -418px
+}
+
+.flair-thailand {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -418px
+}
+
+.flair-tibet {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -418px
+}
+
+.flair-togo {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -418px
+}
+
+.flair-trinidadandtobago {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -418px
+}
+
+.flair-tunisia {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -418px
+}
+
+.flair-turkey {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -418px
+}
+
+.flair-timorleste {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -418px
+}
+
+.flair-turkmenistan {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -418px
+}
+
+.flair-tuvalu {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -418px
+}
+
+.flair-uae {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -418px
+}
+
+.flair-uganda {
+    width: 32px;
+    height: 22px;
+    background-position: -448px 0
+}
+
+.flair-ukraine {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -22px
+}
+
+.flair-ukraine-alt {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -242px
+}
+
+.flair-unitedkingdom {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -66px
+}
+
+.flair-uruguay {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -110px
+}
+
+.flair-usa {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -132px
+}
+
+.flair-uzbekistan {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -154px
+}
+
+.flair-vanuatu {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -176px
+}
+
+.flair-vatican {
+    width: 23px;
+    height: 22px;
+    background-position: -453px -198px
+}
+
+.flair-venezuela {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -220px
+}
+
+.flair-vietnam {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -242px
+}
+
+.flair-virginislands {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -264px
+}
+
+.flair-wales {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -286px
+}
+
+.flair-wallisandfutuna {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -308px
+}
+
+.flair-yemen {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -330px
+}
+
+.flair-zambia {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -352px
+}
+
+.flair-zimbabwe {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -374px
+}
+
+.flair-tonga {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -132px
+}
+
+.flair-tamil-tigers {
+    width: 32px;
+    height: 22px;
+    background-position: -192px -110px
+}
+
+.flair-malta-smo-1 {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -110px
+}
+
+.flair-malta-smo-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -110px
+}
+
+.flair-muhammad {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -110px
+}
+
+.flair-transnistria {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -110px
+}
+
+.flair-germany-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -352px -132px
+}
+
+.flair-japan-imperial {
+    width: 32px;
+    height: 22px;
+    background-position: -160px -198px
+}
+
+.flair-palestine-PNA {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -242px
+}
+
+.flair-corsica {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -88px
+}
+
+.flair-kaiserliche-marine {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -132px
+}
+
+.flair-austria-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -88px
+}
+
+.flair-cabinda {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -110px
+}
+
+.flair-northkorea-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -308px
+}
+
+.flair-canada-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -66px
+}
+
+.flair-australia-2 {
+    width: 32px;
+    height: 22px;
+    background-position: -384px 0
+}
+
+.flair-venice {
+    width: 36px;
+    height: 22px;
+    background-position: -64px -330px
+}
+
+.flair-north-cyprus {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -352px
+}
+
+.flair-united-arab-republic-algeria-tunisia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -110px
+}
+
+.flair-wiphala {
+    width: 21px;
+    height: 21px;
+    background-position: -69px -44px
+}
+
+.flair-rojava {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -44px
+}
+
+.flair-taliban {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -198px
+}
+
+.flair-alqaeda {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -176px
+}
+
+.flair-fedarabia {
+    width: 32px;
+    height: 22px;
+    background-position: -224px -44px
+}
+
+.flair-federation {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -66px
+}
+
+.flair-fifa {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -440px
+}
+
+.flair-interpol {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -440px
+}
+
+.flair-olympic {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -440px
+}
+
+.flair-redcross {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -440px
+}
+
+.flair-reporterswithoutborders {
+    width: 32px;
+    height: 22px;
+    background-position: -128px -440px
+}
+
+.flair-eu {
+    width: 32px;
+    height: 22px;
+    background-position: -384px -440px
+}
+
+.flair-nato {
+    width: 32px;
+    height: 22px;
+    background-position: -416px -440px
+}
+
+.flair-unitednations {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -440px
+}
+
+.flair-vietnamalt {
+    width: 32px;
+    height: 22px;
+    background-position: -256px -66px
+}
+
+.flair-cyprusalt {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -88px
+}
+
+.flair-ussr {
+    width: 32px;
+    height: 22px;
+    background-position: -320px -88px
+}
+
+.flair-chechnya {
+    width: 32px;
+    height: 22px;
+    background-position: -448px -88px
+}
+
+.flair-southsudan2 {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -154px
+}
+
+.flair-altrussia {
+    width: 32px;
+    height: 22px;
+    background-position: 0 -132px
+}
+
+.flair-monaco2 {
+    width: 32px;
+    height: 22px;
+    background-position: -32px -132px
+}
+
+#header,
+.footer-parent {
+    background: -webkit-radial-gradient(50% 190%, circle cover, #afeeee 0%, #afeeee 50%, #0bcce7 100%) #444;
+    background: -o-radial-gradient(50% 190%, circle cover, #afeeee 0%, #afeeee 50%, #0bcce7 100%) #444;
+    background: -moz-radial-gradient(50% 190%, circle cover, #afeeee 0%, #afeeee 50%, #0bcce7 100%) #444;
+    background: -ms-radial-gradient(50% 190%, circle cover, #afeeee 0%, #afeeee 50%, #0bcce7 100%) #444
+}
+
+.morelink {
+    background: -webkit-radial-gradient(50% 190%, circle cover, #5f5f5f 0%, #545454 50%, #3f3f3f 100%) #444;
+    background: -o-radial-gradient(50% 190%, circle cover, #5f5f5f 0%, #545454 50%, #3f3f3f 100%) #444;
+    background: -moz-radial-gradient(50% 190%, circle cover, #5f5f5f 0%, #545454 50%, #3f3f3f 100%) #444;
+    background: -ms-radial-gradient(50% 190%, circle cover, #5f5f5f 0%, #545454 50%, #3f3f3f 100%) #444
+}
+
+.morelink:hover {
+    background: #333
+}
+
+.side .md h4:first-of-type {
+    position: absolute!important;
+    top: 197px;
+    left: 5px;
+    right: 315px;
+    background: #fff;
+    color: #444;
+    padding: 7px 0px 7px 10px;
+    font-size: 12px
+}
+
+.side .md a[title~="redlink"] {
+    color: #c45b52!important
+}
+
+.content[role=main],
+.pretty-form {
+    margin-top: 35px!important
+}
+
+.formtabs-content {
+    margin-top: 39px!important
+}
+
+.searchpane {
+    margin-top: 35px!important
+}
+
+::selection {
+    background-color: #5e82a6;
+    color: #fff
+}
+
+::-webkit-scrollbar {
+    width: 20x;
+    height: 20px;
+    background-color: #222
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #666;
+    border: 2px solid #222
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #999
+}
+
+::-webkit-scrollbar-thumb:active {
+    background-color: #ccc
+}
+
+::-webkit-scrollbar-corner {
+    background-color: transparent;
+    color: #555555
+}
+
+::-webkit-scrollbar-button {
+    border: 2px solid #222;
+    width: 15px;
+    height: 15px
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: #333!important
+}
+
+::-webkit-scrollbar-button:end {
+    display: block
+}
+
+::-webkit-scrollbar-button:start {
+    display: none
+}
+
+::-webkit-scrollbar-button:vertical {
+    border-top: 0
+}
+
+::-webkit-scrollbar-button:horizontal {
+    border-left: 0
+}
+
+::-webkit-scrollbar-button:vertical:increment {
+    background: url("//b.thumbs.redditmedia.com/QV373XEWhi6FaLX9SkbXBMc74PWaIo6oqKVDy49zphk.png") center center no-repeat
+}
+
+::-webkit-scrollbar-button:vertical:decrement {
+    background: url("//a.thumbs.redditmedia.com/uHc4NVme7ufw2JuGZdd55Qi-1qn85hOlLgg6M4fWRV4.png") center center no-repeat
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+    background: url("//b.thumbs.redditmedia.com/BVwhjVKLlv0_wqwhK0wsXsIPimXYizNrwwB1rA5hJuQ.png") center center no-repeat
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+    background: url("//b.thumbs.redditmedia.com/Lr7w7xs0XXPmCUcpEiqojTgnIIjbhMnfI9MLaiNoMTk.png") center center no-repeat
+}
+
+button {
+    background: #fcfcfc;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 1px #e9e9e9;
+    margin-bottom: 4px!important;
+    border-radius: 2px;
+    padding: 4px 8px;
+    color: #666;
+    font-weight: bold
+}
+
+button:hover {
+    background: #f4f4f4;
+    border: 1px solid #e1e1e1
+}
+
+button:focus {
+    outline: none
+}
+
+button:active {
+    background: #efefef
+}
+
+.tagline a,
+.side a {
+    color: #5e82a6
+}
+
+.usertext-body .md a {
+    color: #5e82a6
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.morelink a,
+.domain a,
+#header-bottom-left .tabmenu li a,
+#header-bottom-right a,
+.nextprev a,
+.next-suggestions a,
+#sr-header-area a,
+.drop-choices a.choice,
+.link .entry li .comments,
+.thing a.title,
+.domain,
+.domain a,
+.dropdown.lightdrop .selected {
+    text-decoration: none!important
+}
+
+input[type=text],
+input[type=password] {
+    border: 1px solid #ddd;
+    padding: 4px;
+    outline: 0!important
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    border: 1px solid #cacaca!important
+}
+
+#sr-header-area {
+    background: rgba(0, 0, 0, 0.1);
+    border: none;
+    padding: 0px 13px 2px 15px;
+    transition: 200ms
+}
+
+.sr-bar a {
+    color: #fff;
+    opacity: .4;
+    font-size: 9px;
+    letter-spacing: 0.8px;
+    padding: 6px
+}
+
+.sr-bar a:hover {
+    opacity: .5;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+#sr-header-area .dropdown.srdrop .selected,
+#sr-header-area .drop-choices a.choice {
+    font-weight: bold;
+    color: #aeaeae
+}
+
+#sr-header-area .drop-choices a.choice {
+    font-size: 10px;
+    padding: 2px
+}
+
+#sr-header-area .drop-choices a.choice:hover {
+    color: #646464;
+    background: #d7d7d7
+}
+
+#sr-header-area .sr-list {
+    margin-left: 23px;
+    padding-top: 2px
+}
+
+#sr-header-area .sr-list .separator {
+    display: none
+}
+
+#sr-header-area .srdrop.dropdown {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    background: url("//b.thumbs.redditmedia.com/fGeWgVoNUro7hfg7ZdnMbf5aGbK9LX7G8UMoSJVqWzU.png") no-repeat center transparent;
+    text-indent: -999em;
+    opacity: .6;
+    cursor: pointer;
+    padding-top: 2px
+}
+
+#sr-header-area .srdrop.dropdown:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 1
+}
+
+#sr-more-link {
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    opacity: .8;
+    padding: 2px 10px 0px 15px
+}
+
+#sr-more-link:hover {
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 1
+}
+
+#sr-header-area .drop-choices.srdrop {
+    margin-left: 0;
+    top: 0px!important;
+    position: fixed;
+    padding: 0px;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2)
+}
+
+#sr-header-area .drop-choices {
+    font-size: 12px;
+    border: none;
+    padding: 2px;
+    background: #f2f2f2
+}
+
+#header {
+    border-bottom: 0;
+    height: 200px
+}
+
+#header-img,
+.pagename a {
+    transition: 200ms;
+    opacity: 0.8;
+    border-radius: 5px
+}
+
+#header-img:hover,
+.pagename a:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 200, 0.075)
+}
+
+#header-img {
+    margin-top: 0px;
+    margin-left: 30px
+}
+
+.pagename a {
+    display: block;
+    width: 230px;
+    height: 138px;
+    background: url("//b.thumbs.redditmedia.com/1kWaE41Fs1XTRMQjSiNg09kVulhk2bBJz0PIjf-aKhI.png") no-repeat;
+    font-size: 0;
+    margin: -25px auto 0px auto!important
+}
+
+span.hover.pagename.redditname {
+    display: block;
+    margin-top: -14px;
+    margin-left: -5px;
+    font-size: 0px
+}
+
+#header-bottom-right {
+    background: none!important;
+    z-index: 11;
+    padding: 0px!important;
+    font-size: 12px;
+    bottom: -6px!important;
+    transition: 200ms
+}
+
+#header-bottom-right a {
+    color: #fff;
+    padding: 8px
+}
+
+#header-bottom-right a,
+.logout a {
+    opacity: .7
+}
+
+#header-bottom-right .user {
+    color: rgba(255, 255, 255, 0.6);
+    margin-right: 4px
+}
+
+#header-bottom-right .user .userkarma {
+    color: rgba(255, 255, 255, 0.6);
+    border: none
+}
+
+#header-bottom-right .user a {
+    position: relative
+}
+
+#header-bottom-right .separator {
+    display: none!important
+}
+
+#header-bottom-right a:hover,
+.logout a:hover {
+    opacity: .9;
+    background-color: rgba(0, 0, 0, 0.1)!important
+}
+
+#header-bottom-right #userbarToggle+* {
+    margin-left: 26px!important
+}
+
+.loggedin #header-bottom-right #userbarToggle+* {
+    margin-left: 16px!important
+}
+
+.message-count {
+    background-color: #e6bc4c;
+    color: #4C4C4C!important;
+    padding: 2px 5px!important;
+    margin: 4px;
+    line-height: 11px;
+    position: relative;
+    top: -1px
+}
+
+.separator {
+    visibility: hidden
+}
+
+#header-bottom-left .tabmenu {
+    background: rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    transition: 200ms
+}
+
+#header-bottom-left .tabmenu li {
+    font-weight: normal;
+    margin: 0
+}
+
+#header-bottom-left .tabmenu li a {
+    background: none;
+    color: #fff;
+    opacity: .7;
+    font-size: 11px;
+    line-height: 30px;
+    padding: 9px;
+    text-transform: uppercase
+}
+
+#header-bottom-left .tabmenu li a:hover {
+    opacity: .9;
+    background: rgba(0, 0, 0, 0.1)
+}
+
+#header-bottom-left .tabmenu li.selected a {
+    background: rgba(0, 0, 0, 0.2);
+    border: 0;
+    color: #fff;
+    opacity: .9
+}
+
+.content {
+    margin: 5px 315px 0px 5px
+}
+
+.link {
+    padding-left: 5px;
+    background: #fff;
+    margin-bottom: 1px;
+    color: #444
+}
+
+.link.last-clicked {
+    margin-top: -1px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px dashed #D3D3D3;
+    border-bottom: 1px dashed #D3D3D3
+}
+
+.link .entry {
+    padding: 13px 0 13px 6px
+}
+
+.link .entry li .comments {
+    font-weight: bold!important;
+    color: #868686!important;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1)
+}
+
+.link .entry li .comments:hover {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.4)
+}
+
+.link .tagline,
+.link .entry .buttons li a {
+    font-size: small;
+    font-weight: normal;
+    color: #aaa
+}
+
+.thing .title {
+    overflow: visible
+}
+
+.thing a.title {
+    color: #4f85ac
+}
+
+.thing a.title:hover {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.2)
+}
+
+.thing .title:visited,
+.thing.visited .title {
+    color: #a65e9a
+}
+
+.thing.stickied a.title {
+    font-weight: normal
+}
+
+.thing.stickied a.title {
+    color: #62b46d!important
+}
+
+.thing.stickied a.title:visited,
+.thing.stickied a.title.visited,
+.tagline .stickied-tagline,
+.thing.stickied a.author {
+    color: #62b46d
+}
+
+.error {
+    color: #c45b52
+}
+
+.error,
+.approve-button {
+    font-size: 13px!important
+}
+
+#noresults {
+    padding: 5px;
+    font-size: 16px!important
+}
+
+.domain {
+    color: #ccc;
+    font-size: 11px
+}
+
+.domain a {
+    padding: 1px 3px 3px 3px;
+    text-align: center;
+    color: #ccc;
+    font-size: 11px
+}
+
+.link .rank {
+    margin-right: 10px;
+    margin-top: 30px;
+    position: relative;
+    color: #dadada;
+    display: none
+}
+
+.link .midcol {
+    top: 12px;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+.link .midcol .score {
+    margin-top: 3px
+}
+
+.unvotable-message {
+    border: solid 1px #FF8B60;
+    background-color: #FF8B60;
+    color: #fff;
+    margin-top: 4px;
+    padding: 2px 6px;
+    border-radius: 2px
+}
+
+.action-form {
+    border-radius: 2px;
+    background: #fff8d7;
+    border: solid 1px #E7E5B5;
+    padding: 10px 15px
+}
+
+.link.compressed {
+    margin-bottom: 1px
+}
+
+.link.compressed.last-clicked {
+    margin-bottom: 0px!important
+}
+
+.link.compressed .rank {
+    margin-top: 21px
+}
+
+.link.compressed .midcol {
+    top: 10px
+}
+
+.link.compressed .entry {
+    padding: 12px 0 10px 6px
+}
+
+.menuarea {
+    margin: 0 0 1px 0;
+    background: #fff;
+    color: #999;
+    border: 0
+}
+
+.menuarea .dropdown.lightdrop .selected {
+    color: #666;
+    background-color: #F0F0F0;
+    background-image: none;
+    border: 1px solid #e9e9e9;
+    padding: 2px 22px 2px 4px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block
+}
+
+.menuarea .dropdown.lightdrop .selected:hover {
+    background-color: #f9f9f9
+}
+
+.menuarea .dropdown.lightdrop .selected:after {
+    content: "v";
+    color: #ccc;
+    font-family: monospace;
+    margin: 8px;
+    position: absolute;
+    top: -5px;
+    right: 0
+}
+
+.menuarea .drop-choices.lightdrop {
+    background: #efefef;
+    border: 1px solid #e9e9e9;
+    width: 86px
+}
+
+.menuarea .drop-choices a.choice {
+    color: #999
+}
+
+.menuarea .drop-choices a.choice:hover {
+    color: #555;
+    background-color: #f9f9f9
+}
+
+.menuarea .flat-list li.selected a {
+    color: #c45b52
+}
+
+.expando iframe {
+    margin: 5px 0 5px 40px
+}
+
+.expando-button {
+    height: 20px!important;
+    width: 20px!important;
+    margin: 4px 8px 2px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    background: url("//a.thumbs.redditmedia.com/DPCBgAXxUaRjv0nV5ligM0fK8qR6VoBEln7101pgk84.png") no-repeat -9999px -9999px!important
+}
+
+.toggleImage.expando-button.image.linkImg {
+    height: 20px!important;
+    width: 20px!important;
+    margin: 4px 8px 2px 0;
+    cursor: pointer
+}
+
+.expando-button.image.expanded {
+    background-position: 0 -98px!important
+}
+
+.expando-button.image.expanded:hover {
+    background-position: -20px -98px!important;
+    text-decoration: none
+}
+
+.expando-button.image.collapsed {
+    background-position: 0 -98px!important
+}
+
+.expando-button.image.collapsed:hover {
+    background-position: -20px -98px!important;
+    text-decoration: none
+}
+
+.expando-button.video.expanded {
+    background-position: 0 -78px!important
+}
+
+.expando-button.video.expanded:hover {
+    background-position: -20px -78px!important
+}
+
+.expando-button.video.collapsed {
+    background-position: 0 -78px!important
+}
+
+.expando-button.video.collapsed:hover {
+    background-position: -20px -78px!important
+}
+
+.expando-button.selftext.collapsed {
+    background-position: 0px -38px!important
+}
+
+.expando-button.selftext.collapsed:hover {
+    background-position: -20px -38px!important
+}
+
+.expando-button.selftext.expanded {
+    background-position: 0px -58px!important
+}
+
+.expando-button.selftext.expanded:hover {
+    background-position: -20px -58px!important
+}
+
+.usertext-body .md .expando-button,
+.wiki-page .expando-button {
+    vertical-align: middle!important;
+    margin: 0px 3px 2px 6px!important
+}
+
+.link .usertext .md {
+    border-radius: 2px;
+    background: #f9f9f9;
+    border: 1px solid #f9f9f9;
+    padding: 8px!important;
+    width: calc(100% - 32px)
+}
+
+.arrow {
+    width: 21px;
+    height: 17px;
+    background-image: url("//a.thumbs.redditmedia.com/DPCBgAXxUaRjv0nV5ligM0fK8qR6VoBEln7101pgk84.png")!important;
+    background-position: center center;
+    border: none!important;
+    border-radius: 2px;
+    transition: 200ms
+}
+
+.arrow:hover {
+    background-color: rgba(0, 0, 0, 0.06)
+}
+
+.arrow.up {
+    background-position: -2px -20px!important
+}
+
+.arrow.down {
+    background-position: -42px -20px!important
+}
+
+.arrow.upmod {
+    background-position: -22px -20px
+}
+
+.arrow.downmod {
+    background-position: -62px -20px
+}
+
+.nav-buttons {
+    padding: 10px 5px;
+    background: #fff
+}
+
+.nextprev,
+.next-suggestions {
+    font-size: 0px
+}
+
+.nextprev a,
+.next-suggestions a,
+.res .RESSubscriptionButton {
+    padding: 4px 6px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #999;
+    background: #fcfcfc;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 1px #e9e9e9;
+    margin-bottom: 4px!important;
+    border-radius: 2px;
+    font-weight: bold
+}
+
+.nextprev a:hover,
+.next-suggestions a:hover {
+    background: #f4f4f4;
+    border: 1px solid #e1e1e1
+}
+
+.over18 .thumbnail {
+    background: url("//b.thumbs.redditmedia.com/23tbOURNj2FuVcSQesrjInIeRv24I5MBGiVbN1w6IuY.png") 0px -195px no-repeat
+}
+
+.nsfw-stamp {
+    border: 0!important
+}
+
+.nsfw-stamp acronym {
+    background: #c45b52;
+    border: 1px solid #c45b52!important;
+    color: #fff;
+    border-radius: 2px;
+    padding: 1px 3px
+}
+
+a.thumbnail.default {
+    background: url("//b.thumbs.redditmedia.com/23tbOURNj2FuVcSQesrjInIeRv24I5MBGiVbN1w6IuY.png") 0 0
+}
+
+a.thumbnail.self {
+    background: url("//b.thumbs.redditmedia.com/23tbOURNj2FuVcSQesrjInIeRv24I5MBGiVbN1w6IuY.png") 0 -65px
+}
+
+.stickied a.thumbnail {
+    background: url("//b.thumbs.redditmedia.com/23tbOURNj2FuVcSQesrjInIeRv24I5MBGiVbN1w6IuY.png") 0 -130px
+}
+
+.thumbnail {
+    margin: 6px 10px 0 5px!important;
+    height: 65px!important;
+    width: 65px!important;
+    transition: 200ms;
+    border-radius: 2px;
+    border: 2px solid #fff;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.4)
+}
+
+.thumbnail img {
+    height: 100%
+}
+
+.res-commentBoxes .comment {
+    background: #fff
+}
+
+.gold-accent.comment-visits-box {
+    border-radius: 2px;
+    background: #fff8d7;
+    border: solid 1px #E7E5B5;
+    padding: 10px 15px;
+    margin-left: 10px
+}
+
+.gold-accent.comment-visits-box select#comment-visits {
+    border: 1px solid #ddd;
+    padding: 3px 0;
+    margin-right: -5px;
+    margin-left: 5px
+}
+
+.commentarea {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    color: #3b3b3b
+}
+
+.commentarea .md blockquote,
+.usertext-body .md blockquote {
+    margin: 8px;
+    border: none;
+    border-left: 3px solid #5e82a6;
+    padding: 6px 10px
+}
+
+.commentarea .md blockquote {
+    background: #FAFAFA;
+    border: 1px solid #F2F2F2;
+    border-left: 3px solid #f2f2f2
+}
+
+.self .usertext .md blockquote {
+    margin: 8px 0px
+}
+
+.commentarea .md td,
+.commentarea .md th {
+    padding: 3px 6px
+}
+
+.commentarea .menuarea .toggle a {
+    font-weight: normal;
+    margin-right: 5px;
+    font-size: 12px
+}
+
+.comment .child,
+.comment .showreplies {
+    border-left: 1px solid #F3F3F3
+}
+
+.comment .midcol {
+    width: 21px
+}
+
+.comment.collapsed .tagline,
+.comment.collapsed .tagline a {
+    margin-left: 0
+}
+
+.commentarea .entry .buttons li a {
+    color: #999;
+    font-size: 12px;
+    font-weight: normal
+}
+
+.commentarea .tagline {
+    font-size: 12px
+}
+
+.commentarea .entry .buttons a[onclick*="reply"] {
+    font-weight: bold;
+    color: #868686!important;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+    text-decoration: none
+}
+
+.commentarea .entry .buttons a[onclick*="reply"]:hover {
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.4)
+}
+
+.usertext .help-toggle,
+.usertext a.reddiquette {
+    font-size: 12px
+}
+
+.panestack-title {
+    border-bottom: 1px solid #ececec;
+    width: 507px;
+    padding-bottom: 5px;
+    margin-bottom: 5px
+}
+
+.linkinfo {
+    border-radius: 0px;
+    background: #f9f9f9;
+    border: 0;
+    padding: 8px
+}
+
+.linkinfo .date {
+    color: #999
+}
+
+.linkinfo .score {
+    color: #606672
+}
+
+.linkinfo .shortlink {
+    margin-top: -8px;
+    color: transparent
+}
+
+.linkinfo .shortlink input {
+    border: 1px solid #fff;
+    padding: 6px 12px;
+    width: 252px;
+    text-align: center
+}
+
+.thing .tagline .author.submitter {
+    background-color: #5e82a6;
+    color: #fff;
+    font-size: 11px;
+    padding: 2px 4px!important;
+    line-height: 16px;
+    border-radius: 2px!important
+}
+
+.thing.stickied a.author {
+    background: #62B46D!important;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 4px;
+    border-radius: 2px
+}
+
+.thing.stickied a.author:hover {
+    background: #447e4c!important;
+    text-decoration: none
+}
+
+.thing .tagline .author.moderator {
+    background: #62B46D!important;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 4px!important;
+    border-radius: 2px!important
+}
+
+.thing .tagline .author.moderator:hover {
+    background: #447e4c!important
+}
+
+.tagline .submitter {
+    color: #5e82a6
+}
+
+.tagline .moderator,
+.green {
+    color: #62b46d
+}
+
+.new-comment .usertext-body {
+    margin: 3px 0 1px 0;
+    border-radius: 2px;
+    padding: 0px 8px
+}
+
+ul.tabmenu.formtab,
+.formtabs-content .infobar,
+#reddit-field,
+.submit-page h1 {
+    display: none
+}
+
+.submit .formtabs-content {
+    border-top: none
+}
+
+.submit .roundfield {
+    background: transparent;
+    border-radius: 0
+}
+
+.submit-page .side,
+.submit-page .footer-parent {
+    display: none!important
+}
+
+.submit-page .content {
+    width: 500px;
+    position: absolute;
+    left: calc(50% - 250px)
+}
+
+.formtabs-content .infobar {
+    margin-bottom: 10px
+}
+
+.submit_text .content {
+    position: static
+}
+
+.submit_text .content .md {
+    padding: 20px 0;
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf
+}
+
+.submit-page .debuginfo {
+    display: none
+}
+
+.image_field {
+    display: none
+}
+
+.formtabs-content .infobar,
+.content.submit .info-notice {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    border-radius: 2px
+}
+
+#items-required {
+    display: none
+}
+
+.submit.content button[name="submit"] {
+    background-color: #8cb3d9;
+    border: 1px solid #8cb3d9;
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    width: 520px;
+    position: relative;
+    top: 10px;
+    padding: 6px 0
+}
+
+.submit.content button[name="submit"]:hover {
+    background-color: #79a6d2
+}
+
+.sidebox.submit.submit-link {
+    display: none
+}
+
+.sidebox.submit.submit-text {
+    display: none
+}
+
+.premium-banner {
+    display: none
+}
+
+.submit.content {
+    background-color: #ededed
+}
+
+body.submit-page {
+    background-color: #ededed
+}
+
+.side {
+    padding: 5px 5px;
+    margin: 5px 0 5px 5px;
+    width: 300px
+}
+
+.side .spacer {
+    margin: 0px 0 5px 0
+}
+
+.sidebox.create .spacer {
+    margin: 0;
+    margin-top: 7px;
+    padding-top: 12px;
+    background: #f9f9f9
+}
+
+.sidebox.create .spacer a {
+    top: 6px;
+    left: 6px
+}
+
+.sidebox .subtitle {
+    color: #999
+}
+
+.side .titlebox .tagline {
+    margin: -5px 0 5px 0;
+    padding: 0px 5px 8px 28px;
+    background: #f9f9f9;
+    border-top: 0;
+    font-size: 12px;
+    width: 100px
+}
+
+.side .md>p {
+    color: #666
+}
+
+.side .md blockquote {
+    border: 0;
+    padding: 0px;
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 0
+}
+
+.side .md blockquote h3 {
+    padding: 2px 0;
+    margin-bottom: 0;
+    border-bottom: 2px solid #f5f5f5
+}
+
+.side .md blockquote a {
+    color: #5e82a6
+}
+
+.side .md ul {
+    list-style: square
+}
+
+.side .md pre {
+    margin: 5px
+}
+
+.side .md>p {
+    margin: 0
+}
+
+.sidecontentbox.collapsible {
+    margin-bottom: -5px
+}
+
+.sidecontentbox .content {
+    border: 0;
+    background: #fff
+}
+
+.sidecontentbox .title {
+    padding: 4px 8px;
+    border-bottom: 2px solid #f5f5f5
+}
+
+.sidecontentbox .title h1 {
+    font-size: 14px;
+    color: #888
+}
+
+.sidecontentbox .collapse-button {
+    width: 12px;
+    height: 12px;
+    background: #f0f0f0;
+    color: #999;
+    border: 1px solid #f0f0f0;
+    font-size: 14px
+}
+
+.sidecontentbox a.helplink {
+    position: relative;
+    background: url("//b.thumbs.redditmedia.com/cYou9e9HUiwIee6H4o70cpao_sZcLFSMm_sQeMQ-_bs.png") no-repeat;
+    font-size: 0;
+    right: 165px;
+    height: 15px;
+    width: 15px;
+    margin-top: 6px;
+    opacity: .4
+}
+
+.sidecontentbox a.helplink:hover {
+    opacity: .6
+}
+
+.sidecontentbox .more {
+    text-align: left
+}
+
+.sidecontentbox .more a {
+    color: #bbb
+}
+
+.gadget .reddit-entry {
+    line-height: 17px
+}
+
+.gadget .reddit-entry .linkflairlabel {
+    vertical-align: 0
+}
+
+.gadget .midcol {
+    width: 21px;
+    margin: 0 8px 0 0
+}
+
+.account-activity-box {
+    background: #f9f9f9;
+    padding: 8px;
+    margin-top: -8px;
+    margin-bottom: -5px
+}
+
+#search input[type=text] {
+    border: 0!important;
+    border-bottom: 2px solid #f0f0f0!important;
+    font-size: 14px!important;
+    width: 295px;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif
+}
+
+#search input[type=text]:focus {
+    outline: none
+}
+
+#searchexpando {
+    border-radius: 0px;
+    background: rgba(255, 255, 255, 0.95);
+    margin: 0 0 5px 0;
+    border: 0;
+    position: absolute;
+    z-index: 1;
+    width: 275px
+}
+
+#searchexpando input,
+#searchexpando p {
+    margin-bottom: 0px;
+    color: #666
+}
+
+#searchexpando dl {
+    color: #555
+}
+
+#searchexpando label {
+    color: #555
+}
+
+#moresearchinfo {
+    border: 1px solid #f0f0f0;
+    margin-top: -5px
+}
+
+label+#moresearchinfo {
+    margin-top: 5px
+}
+
+.login-form-side {
+    border: 0
+}
+
+.login-form-side input[type=text],
+.login-form-side input[type=password] {
+    border: 1px solid #f0f0f0;
+    width: 285px;
+    height: 35px;
+    margin: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #777
+}
+
+.login-form-side #remember-me * {
+    font-size: 12px
+}
+
+.login-form-side #remember-me {
+    color: #777
+}
+
+.sponsorshipbox iframe {
+    margin-bottom: -2px
+}
+
+.morelink {
+    border: none;
+    margin-bottom: -1px;
+    border: 0;
+    border-radius: 2px;
+    width: initial;
+    height: 35px;
+    line-height: 35px
+}
+
+.morelink a {
+    letter-spacing: 0px;
+    font-weight: normal;
+    color: #fff
+}
+
+.morelink .nub {
+    display: none
+}
+
+.sidebox.submit.submit-text {
+    margin-top: 6px
+}
+
+.sidebox.submit.submit-link .morelink a:after {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 0;
+    width: 29px;
+    height: 29px;
+    background: url("//a.thumbs.redditmedia.com/D0MAgOi-YH9SHKEWm3KfZi3xcG-24uBlYOjfNPmR680.png") no-repeat;
+    content: ""
+}
+
+.sidebox.submit.submit-text .morelink a:after {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 0;
+    width: 29px;
+    height: 29px;
+    background: url("//b.thumbs.redditmedia.com/lIZQmzza7sgvmYkMjNKJECBhqx0v5aZEuIUsqy0fg-c.png") no-repeat;
+    content: ""
+}
+
+.titlebox h1 a {
+    display: none;
+    text-align: center;
+    font-size: 14px
+}
+
+span.subscribers,
+.users-online {
+    color: #666;
+    background: #F9F9F9;
+    padding: 4px 8px;
+    vertical-align: top;
+    width: 255px;
+    display: inline-block;
+    text-align: center;
+    overflow: hidden
+}
+
+span.subscribers {
+    color: #666;
+    padding-bottom: 1px;
+    margin-top: 1px
+}
+
+.titlebox .users-online {
+    padding-top: 1px;
+    margin-bottom: 5px
+}
+
+.users-online:before {
+    display: none
+}
+
+.fancy-toggle-button {
+    margin-bottom: 2px
+}
+
+.fancy-toggle-button .active {
+    border-radius: 2px
+}
+
+.res .RESDashboardToggle {
+    margin-right: 0!important
+}
+
+.fancy-toggle-button .add,
+.res .RESshortcutside,
+.res .RESDashboardToggle {
+    background: #f0f0f0!important;
+    border: 1px solid #f0f0f0!important;
+    color: #a5a5a5;
+    transition: 100ms!important;
+    text-decoration: none;
+    border-radius: 2px!important;
+    padding: 2px 15px!important
+}
+
+.fancy-toggle-button .add:hover,
+.res .RESshortcutside:hover,
+.res .RESDashboardToggle:hover {
+    background: #62B46D!important;
+    border: 1px solid #62B46D!important;
+    color: #fff!important
+}
+
+.fancy-toggle-button .remove,
+.res .RESshortcutside.remove {
+    background: #f0f0f0!important;
+    border: 1px solid #f0f0f0!important;
+    transition: 200ms!important;
+    color: #a5a5a5!important;
+    text-decoration: none;
+    padding: 2px 15px
+}
+
+.res .RESDashboardToggle.remove {
+    padding: 2px 17px!important
+}
+
+.fancy-toggle-button .remove:hover,
+.res .RESshortcutside.remove:hover,
+.res .RESDashboardToggle.remove:hover {
+    background: #c45b52!important;
+    border: 1px solid #c45b52!important;
+    color: #fff!important
+}
+
+.hover-bubble.multi-selector {
+    display: none!important
+}
+
+.md blockquote,
+.help blockquote {
+    margin: 0px;
+    border: 1px solid #ccc;
+    padding: 4px 12px;
+    background: #fff
+}
+
+.md hr {
+    margin-top: 0;
+    background: #ababab
+}
+
+.titlebox form.toggle,
+.leavemoderator {
+    padding: 10px 8px 0px 8px;
+    background: #f9f9f9;
+    border-bottom: 0;
+    text-align: center font-size: 12px;
+    color: #999
+}
+
+.titlebox form.flairtoggle {
+    padding-bottom: 2px;
+    padding-top: 10px
+}
+
+label[for=flair_enabled] {
+    position: relative;
+    top: -3px
+}
+
+.titlebox .bottom {
+    border-top: none;
+    padding: 5px;
+    font-size: 12px;
+    color: #999;
+    background: #f9f9f9;
+    text-align: center
+}
+
+.titlebox .age {
+    display: block!important;
+    float: none;
+    text-align: center
+}
+
+#ad_sponsorship {
+    border: 1px solid #f0f0f0;
+    width: 293px
+}
+
+#ad-frame,
+#ad_main {
+    background: #f9f9f9;
+    width: 295px;
+    margin-bottom: -2px;
+    margin-top: 5px
+}
+
+#mail {
+    background: url("//b.thumbs.redditmedia.com/culJNd--neDb0BWoSNwd7yBY3apOdFXL7udtF5T_NoQ.png") no-repeat center!important;
+    width: 13px!important;
+    height: 14px!important;
+    top: 11px!important
+}
+
+#mail.havemail {
+    background: url("//a.thumbs.redditmedia.com/dEYH0abbk-SwEaswwU2rpMq6gEF8dxAjgTgqPVuHTF4.png") no-repeat center!important;
+    opacity: .8;
+    top: 11px!important
+}
+
+.res #mail.havemail {
+    top: 11px!important
+}
+
+#chat {
+    background: url("//b.thumbs.redditmedia.com/1PTGRrYjIUvHFJv2l2d7rvfyFEhd6c9-5FQLQJw5muo.png") no-repeat center!important;
+    width: 15px!important;
+    height: 14px!important;
+    top: 0px;
+    left: 3px
+}
+
+#chat.active {
+    background: url("//b.thumbs.redditmedia.com/1PTGRrYjIUvHFJv2l2d7rvfyFEhd6c9-5FQLQJw5muo.png") no-repeat center!important;
+    opacity: .8
+}
+
+#modmail {
+    background: url("//b.thumbs.redditmedia.com/lLX5yvyX5gU0HJVZcxXMUDfBuGxPK8v-UNzsAuR-LrQ.png") no-repeat center!important;
+    width: 15px!important;
+    height: 14px!important;
+    top: 5px
+}
+
+#modmail.havemail {
+    background: url("//b.thumbs.redditmedia.com/K8FT5WiYEowm6Y3LCayXNXNfkfK554QQrEWinP8Kv5s.png") no-repeat center!important;
+    opacity: .8
+}
+
+#mail.havemail:hover,
+#modmail.havemail:hover {
+    opacity: 1
+}
+
+#new_modmail {
+    background: url("//b.thumbs.redditmedia.com/lLX5yvyX5gU0HJVZcxXMUDfBuGxPK8v-UNzsAuR-LrQ.png") no-repeat center!important;
+    width: 15px!important;
+    height: 14px!important;
+    top: 5px
+}
+
+#new_modmail.havemail {
+    background: url("//b.thumbs.redditmedia.com/K8FT5WiYEowm6Y3LCayXNXNfkfK554QQrEWinP8Kv5s.png") no-repeat center!important;
+    opacity: .8
+}
+
+#mail.havemail:hover,
+#new_modmail.havemail:hover {
+    opacity: 1
+}
+
+.pref-lang {
+    font-size: 0;
+    background: url("//b.thumbs.redditmedia.com/4_BP0cFNyu84zqHMuwE0Zdr8KWOTAX9LsCHpTt-MIWQ.png") no-repeat center!important;
+    width: 12px!important;
+    height: 14px!important;
+    position: relative;
+    display: inline-block;
+    top: -5px
+}
+
+.logout a {
+    font-size: 0;
+    background: url("//b.thumbs.redditmedia.com/n4otVEpn9r8Qv4rIVaDT_5oUM38inZWU4eoqA_BD-bg.png") no-repeat center!important;
+    width: 15px!important;
+    height: 15px!important;
+    position: relative;
+    display: inline-block;
+    top: -5px
+}
+
+.titlebox .leavemoderator:before,
+.moderator.toggle .main:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -42px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.titlebox form.leavecontributor-button:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -56px 0px no-repeat;
+    width: 14px;
+    margin-top: 6px
+}
+
+.icon-menu .reddit-edit:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") 0px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .edit-stylesheet:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -14px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .moderator-mail:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -28px 0px no-repeat;
+    width: 14px;
+    height: 14px;
+    margin-left: 0;
+    margin-top: 0
+}
+
+.icon-menu .reddit-moderators:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -42px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-contributors:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -56px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-traffic:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -70px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-modqueue:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -84px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-reported:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -98px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-spam:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -112px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-edited:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -126px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-ban:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -140px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-flair:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -154px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-moderationlog:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -168px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.icon-menu .reddit-unmoderated:before {
+    background: url("//b.thumbs.redditmedia.com/3IROvE67avLBPQLRrli4_BkaoIMPGRBRk-lM50VZnjU.png") -182px 0px no-repeat;
+    width: 14px;
+    height: 14px
+}
+
+.content h1 {
+    display: none
+}
+
+.formtabs-content {
+    border-top: none;
+    padding-top: 0px;
+    margin-left: -5px
+}
+
+.formtabs-content .infobar {
+    width: 506px;
+    background: #fff;
+    color: #666;
+    border: 0;
+    padding: 8px 12px
+}
+
+.roundfield {
+    border-radius: 0px;
+    background: #fff;
+    padding: 15px;
+    font-size: medium;
+    color: #555
+}
+
+.roundfield textarea[name=title] {
+    color: #333
+}
+
+.roundfield textarea,
+.roundfield input[type=text],
+.roundfield input[type=url],
+.roundfield input[type=password],
+.roundfield input[type=number],
+.usertext-edit textarea {
+    border: 1px solid #f0f0f0;
+    outline: none;
+    color: #333
+}
+
+textarea:focus,
+input#sr-autocomplete:focus,
+.usertext-edit textarea:focus,
+.roundfield input[type=url]:focus {
+    border: 1px solid #cacaca
+}
+
+.roundfield span.title {
+    text-transform: capitalize
+}
+
+.roundfield .usertext-edit {
+    padding-left: 0px
+}
+
+div#title-field {
+    padding-bottom: 12px
+}
+
+.roundfield span.gray {
+    visibility: hidden
+}
+
+.roundfield:nth-of-type(5) {
+    margin: 3px 0
+}
+
+#url-field button {
+    background: url("//a.thumbs.redditmedia.com/07j6BeAFdkNhLTmrb2m8VAsxGJdoTDnGLxkxCOI0NJ8.png") no-repeat 8px center #fcfcfc;
+    color: #919191;
+    max-width: 30px;
+    height: 30px;
+    transition: 800ms;
+    line-height: 20px;
+    text-indent: 20px;
+    padding-right: 10px
+}
+
+#url-field button:hover {
+    max-width: 200px
+}
+
+.submit_text.enabled {
+    margin-bottom: -2px
+}
+
+.content.submit .info-notice {
+    background: #fff;
+    border: 1px solid #fff;
+    border-radius: 0px;
+    margin-bottom: 5px;
+    margin-left: -5px;
+    width: 510px
+}
+
+body:not(.subscriber) #siteTable:before {
+    width: calc(100% - 21px);
+    background: #fff8d7;
+    color: #666;
+    border: 0;
+    margin: 0 0 1px 0
+}
+
+.spacer button.btn:hover {
+    opacity: .9
+}
+
+#suggested-reddits {
+    display: none
+}
+
+ul.tabmenu.formtab {
+    position: absolute;
+    top: 176px;
+    z-index: 999;
+    background: none
+}
+
+.tabmenu.formtab .selected a {
+    font-size: 100%;
+    opacity: 1
+}
+
+.selected a.link-button.choice,
+.selected a.text-button.choice {
+    padding: 5px 10px;
+    background: #5e82a6
+}
+
+a.text-button.choice,
+a.link-button.choice {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 0;
+    background: #fff;
+    opacity: .3
+}
+
+form .spacer+.spacer {
+    margin: 5px 0
+}
+
+.footer-parent {
+    padding-bottom: 40px;
+    padding-top: 55px;
+    margin-top: 5px;
+    border-top: 5px solid rgba(0, 0, 0, 0.3)
+}
+
+.footer-parent:before {
+    display: block;
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: -55px;
+    content: "// subreddit theme: /r/stcky //";
+    color: rgba(255, 255, 255, 0.6);
+    width: 200px
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    border-radius: 0;
+    padding: 15px 20px;
+    margin: 10px auto 20px auto
+}
+
+.footer .title {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px dotted rgba(0, 0, 0, 0.1);
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.footer a {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 13px;
+    line-height: 18px
+}
+
+.buygold {
+    color: #D5AC3D!important;
+    font-weight: normal
+}
+
+.footer .col {
+    border-left: none
+}
+
+.debuginfo {
+    margin-top: -31px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.debuginfo .content,
+.debuginfo .icon {
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.bottommenu {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px
+}
+
+.bottommenu a {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.bottommenu .updated {
+    color: #62b46d
+}
+
+.search-page .sitetable {
+    margin-top: 1px!important
+}
+
+.searchpane {
+    margin-right: 0;
+    margin-bottom: 1px;
+    background: #fff;
+    font-size: 12px;
+    padding: 7px 10px 10px 10px
+}
+
+.raisedbox {
+    border: 0
+}
+
+.searchfacets {
+    border: 0;
+    border-top: 1px solid #f5f5f5;
+    box-shadow: none
+}
+
+.searchfacets .facet.count:hover {
+    text-decoration: none
+}
+
+.messages-page .sitetable {
+    background: #fff;
+    margin-top: -9px
+}
+
+.messages-page .message {
+    margin-left: 0
+}
+
+.messages-page .message .subject .correspondent {
+    border: 1px solid #B7D7F7;
+    border-radius: 0
+}
+
+.messages-page .message.message-reply.recipient>.entry .head,
+.message.message-parent.recipient>.entry .head {
+    color: #222;
+    font-size: 12px
+}
+
+.linefield {
+    background: #F9F9F9;
+    margin-bottom: 5px;
+    width: 528px
+}
+
+.linefield .title {
+    text-transform: capitalize;
+    color: #555
+}
+
+.linefield span+span {
+    margin-left: -10px;
+    font-size: 12px!important
+}
+
+.linefield .linefield-content {
+    font-size: 20px
+}
+
+.linefield label {
+    font-size: 14px;
+    color: #444
+}
+
+.pretty-form input[type=text],
+.pretty-form textarea,
+.pretty-form input[type=password],
+.pretty-form input[type=number] {
+    font-size: 13px;
+    color: #444;
+    padding: 4px 8px;
+    margin: 4px 4px 4px 0
+}
+
+.gray {
+    color: #aaa
+}
+
+#img-preview-container {
+    border: 1px dashed #ccc;
+    padding: 7px
+}
+
+.flair-settings {
+    margin-bottom: 5px
+}
+
+.tabpane-content {
+    background: #fff;
+    border: 0;
+    padding: 5px;
+    margin-top: 4px
+}
+
+#tab-grant,
+#tab-templates,
+#tab-link_templates {
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 0
+}
+
+#tab-grant a,
+#tab-templates a,
+#tab-link_templates a {
+    padding: 4px 8px;
+    text-decoration: none
+}
+
+#tab-grant.selected a,
+#tab-templates.selected a,
+#tab-link_templates.selected a {
+    background: #c45b52;
+    color: #fff;
+    border: 0
+}
+
+.flairlist .flair-jump input[type="text"] {
+    padding: 4px
+}
+
+.pretty-form {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px
+}
+
+.pretty-form input[type=text],
+.pretty-form textarea,
+.pretty-form input[type=password],
+.pretty-form input[type=number] {
+    box-shadow: none;
+    border: 1px solid #ddd;
+    outline: none
+}
+
+.pretty-form h2 {
+    margin-left: 5px
+}
+
+.sheets {
+    margin-right: 5px
+}
+
+#stylesheet_contents {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border: 1px solid #ddd;
+    padding: 0px 2px!important;
+    font-family: monospace;
+    font-weight: 600;
+    color: #333;
+    font-size: 12px;
+    line-height: 1.4
+}
+
+label[for=reason] {
+    color: #666
+}
+
+.sheets .col textarea:focus {
+    outline: none
+}
+
+.stylesheet-customize-container #images {
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 5px;
+    background: #fff;
+    color: #555
+}
+
+.stylesheet-customize-container #images .image-upload span {
+    font-size: 12px;
+    color: #999;
+    padding-left: 0
+}
+
+.stylesheet-customize-container #images .image-upload label input[name=img_type] {
+    margin: 2px 5px 0 5px
+}
+
+.stylesheet-customize-container #images .image-upload input#img-name {
+    border: 1px solid #ddd;
+    padding: 2px;
+    margin: 5px;
+    width: 191px
+}
+
+.stylesheet-customize-container img {
+    background-image: url("//a.thumbs.redditmedia.com/j2QP9JyVHvBdKWPUH6PV1_Q-FGZ8ntdmQQLPdyJliL4.png")
+}
+
+.stylesheet-customize-container img:hover {
+    background-image: none
+}
+
+.stylesheet-customize-container h2 {
+    margin-top: 0;
+    margin-bottom: 5px
+}
+
+#preview-table {
+    background: #fff;
+    margin-top: 5px;
+    padding: 5px 10px 10px 10px
+}
+
+#preview-table>table {
+    margin: 0;
+    border: 1px dotted #ddd
+}
+
+#preview-table>table>tbody>tr>th {
+    vertical-align: middle;
+    color: #555
+}
+
+ul#image-preview-list {
+    margin: -15px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+    padding-top: 0px
+}
+
+ul#image-preview-list li {
+    background: #fff;
+    padding: 8px 8px;
+    margin: 0 0 5px 5px;
+    border-radius: 2px;
+    border-bottom: 2px solid #ddd;
+    width: 296.5px;
+    height: 100px;
+    font-size: 14px;
+    color: #666
+}
+
+ul#image-preview-list .preview {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 8px;
+    right: 0;
+    margin: auto 0;
+    background: #fafafa;
+    line-height: 98px
+}
+
+ul#image-preview-list .preview img {
+    vertical-align: middle
+}
+
+.res #srList {
+    top: 0;
+    border: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-transform: uppercase;
+    max-height: none!important;
+    height: 100%;
+    position: fixed;
+    overflow-y: auto;
+    overflow-x: hidden;
+    color: #aeaeae
+}
+
+.res #srList tr {
+    border-bottom: 1px solid #f0f0f0
+}
+
+.res #srList tr:hover {
+    background: none;
+    background: #f0f0f0
+}
+
+.res #srList td {
+    padding: 0
+}
+
+.res #srList thead td,
+.res #srList thead td a {
+    font-weight: bold;
+    font-size: 11px;
+    color: #666
+}
+
+.res #srList thead td:first-child,
+.res #srList thead td:nth-child(3) {
+    padding-left: 8px
+}
+
+.res .sortAsc,
+.res .sortDesc {
+    margin-right: 10px
+}
+
+.res #srList td a {
+    text-decoration: none;
+    color: #aeaeae;
+    font-weight: bold;
+    padding: 3px 8px
+}
+
+.res .RES-keyNav-activeElement,
+.res .commentarea .RES-keyNav-activeElement .md,
+res .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-color: #F9FEFF!important
+}
+
+.res #RESShortcutsSort,
+.res #RESShortcutsRight,
+.res #RESShortcutsLeft,
+.res #RESShortcutsAdd,
+.res #RESShortcutsTrash {
+    height: 20px;
+    line-height: 18px;
+    background: none;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.res #RESShortcutsSort:hover,
+.res #RESShortcutsRight:hover,
+.res #RESShortcutsLeft:hover,
+.res #RESShortcutsAdd:hover,
+.res #RESShortcutsTrash:hover {
+    color: rgba(255, 255, 255, 1)
+}
+
+.res #RESShortcutsSort,
+.res #RESShortcutsEditContainer .res-icon {
+    font-size: 10px
+}
+
+.res #RESShortcutsLeft,
+.res #RESShortcutsRight {
+    font-size: 14px
+}
+
+.res #RESShortcutsEditContainer {
+    height: 20px;
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.res #progressIndicator,
+.res .NERPageMarker,
+.res #NERFail {
+    width: initial;
+    margin: 0;
+    margin-bottom: 1px;
+    border-radius: 0;
+    font-size: 12px;
+    padding: 8px;
+    background: #fcfcfc;
+    border: 0;
+    color: #666;
+    font-weight: bold
+}
+
+.res #progressIndicator:hover {
+    background: #fff
+}
+
+.res #NERFail {
+    padding: 5px 0 12px 0
+}
+
+.res .nextprev a,
+.res .next-suggestions a {
+    margin: 2px!important
+}
+
+.res #header-bottom-right {
+    top: auto;
+    border-radius: 0
+}
+
+.res .userkarma a,
+.res #mailCount {
+    padding: 0!important
+}
+
+.res #userbarToggle {
+    top: 11px;
+    left: -8px;
+    height: 0px;
+    min-height: 0;
+    width: auto;
+    padding: 15px 8px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    border: none;
+    line-height: 0;
+    color: rgba(255, 255, 255, 0.2)
+}
+
+.res #userbarToggle:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.res #userbarToggle.userbarHide {
+    position: initial!important;
+    margin-right: -16px!important;
+    padding-top: 14px!important
+}
+
+.res-navTop #userbarToggle.userbarShow {
+    top: -36px!important;
+    left: auto;
+    right: 0;
+    height: 0;
+    min-height: 0
+}
+
+.res .thing .tagline .author.submitter {
+    background-color: #5e82a6!important
+}
+
+.res .thing .tagline .author.moderator {
+    background: #62B46D!important
+}
+
+.res .thing .tagline .author.moderator:hover {
+    background: #447e4c!important
+}
+
+.res #RESShortcuts {
+    overflow: visible
+}
+
+.res #srDropdown {
+    width: 16px;
+    height: 20px;
+    background: url("//b.thumbs.redditmedia.com/fGeWgVoNUro7hfg7ZdnMbf5aGbK9LX7G8UMoSJVqWzU.png") no-repeat center transparent;
+    text-indent: -999em;
+    opacity: .6;
+    cursor: pointer;
+    padding-right: 6px
+}
+
+.res #srDropdown:hover {
+    background-color: rgba(0, 0, 0, 0.2)!important
+}
+
+.res #sr-header-area #srDropdown:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    opacity: 1
+}
+
+.res #sr-header-area {
+    line-height: 22px;
+    padding-left: 0;
+    overflow: hidden
+}
+
+.res #srLeftContainer {
+    padding-left: 0
+}
+
+.res .separator {
+    display: none
+}
+
+.res #sr-header-area a.RESShortcutsCurrentSub,
+.res #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+    color: rgba(240, 243, 252, 1)!important;
+    opacity: .8
+}
+
+.res #srLeftContainer,
+.res #RESShortcutsViewport,
+.res #RESShortcutsEditContainer {
+    max-height: 20px
+}
+
+.res .srSep {
+    color: rgba(0, 0, 0, 0.5)
+}
+
+.res .linkinfo .totalvotes {
+    font-size: 12px;
+    opacity: .5
+}
+
+#openRESPrefs {
+    vertical-align: middle;
+    padding: 7px
+}
+
+#openRESPrefs:hover {
+    background-color: rgba(0, 0, 0, 0.1)!important
+}
+
+#RESMainGearOverlay {
+    top: 83px!important;
+    left: auto!important;
+    right: 105px!important;
+    height: 25px!important;
+    border-radius: 2px;
+    display: none!important
+}
+
+.RESDropdownList {
+    top: 201px!important;
+    right: 5px!important;
+    background: #fff;
+    width: 303px!important;
+    border-radius: 0;
+    border: 1px solid #ddd;
+    border-top: 0
+}
+
+.res #RESAccountSwitcherIcon {
+    margin-left: 0;
+    margin-top: -3px;
+    width: 15px;
+    height: 15px
+}
+
+#RESAccountSwitcherDropdown {
+    left: auto!important
+}
+
+.RESDropdownList li,
+.RESDropdownList a {
+    border: none;
+    color: #6f6e69;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    transition: 200ms
+}
+
+.RESDropdownList li:hover {
+    background: #ececec;
+    color: #000
+}
+
+.RESDropdownList li a {
+    width: 100%!important
+}
+
+.RESDropdownList li a:hover {
+    background: #ececec;
+    color: #000;
+    text-decoration: none
+}
+
+#RESSearchMenuItem {
+    background-color: #ccc;
+    border: 1px solid #ccc
+}
+
+#RESSearchMenuItem:hover {
+    background-color: #555!important;
+    border: 1px solid #555!important
+}
+
+#SettingsConsole:hover>#RESSearchMenuItem {
+    border: 1px solid #ccc
+}
+
+.toggleButton {
+    text-transform: lowercase
+}
+
+.moduleToggle .toggleOn,
+.res .toggleButton .toggleOn,
+.res .moduleToggle .toggleOff,
+.res .toggleButton .toggleOff {
+    background-color: #ccc!important;
+    color: #aaa;
+    border: none;
+    line-height: 14px
+}
+
+.toggleButton:not(.enabled) .toggleOff {
+    background-color: #e74c3c!important;
+    color: #fff;
+    border: none;
+    line-height: 14px
+}
+
+.moduleToggle.enabled .toggleOn,
+.toggleButton.enabled .toggleOn {
+    background-color: #62B46D!important;
+    color: #fff;
+    border: none;
+    line-height: 14px
+}
+
+.moduleToggle::before,
+.toggleButton::before {
+    display: none
+}
+
+.gearIcon {
+    border-radius: 2px;
+    cursor: pointer
+}
+
+.RESNotificationHeader .gearIcon {
+    position: absolute;
+    top: 6px;
+    right: 45px
+}
+
+html[lang^="nm"] body {
+    background: #222
+}
+
+html[lang^="nm"] button {
+    background: #333333;
+    border: 1px solid #222222;
+    box-shadow: 0 1px #222222;
+    color: #888
+}
+
+html[lang^="nm"] a,
+html[lang^="nm"] .side .md blockquote a {
+    color: #677381
+}
+
+html[lang^="nm"] h4 {
+    color: #aaa
+}
+
+html[lang="nm"] .res .commentarea .thing,
+html[lang="nm"] .res .commentarea .child .thing.comment,
+html[lang="nm"] .content.submit .info-notice {
+    background-color: #262626!important;
+    border: 1px solid #2C2C2C!important
+}
+
+html[lang="nm"] .commentarea .md blockquote {
+    background: #2F2F2F;
+    border: 1px solid #424242;
+    border-left: 3px solid #424242
+}
+
+html[lang="nm"] .commentarea .entry .buttons a[onclick*="reply"]:hover {
+    border-bottom: 1px dotted #aaa
+}
+
+html[lang="nm"] .new-comment .usertext-body {
+    background-color: #464B51;
+    border: solid 1px #464B51
+}
+
+html[lang="nm"] .new-comment .usertext-body .md p {
+    color: #C8D3DF
+}
+
+html[lang^="nm"] .wiki-page .wiki-page-content {
+    border-top: 2px solid #222
+}
+
+html[lang^="nm"] .wiki-page .wiki-page-content hr {
+    border: 1px solid #222
+}
+
+html[lang^="nm"] .wiki-page .wiki-page-content .wiki>.toc>ul {
+    border: 1px solid #1E1E1E;
+    box-shadow: 0 0 8px #1E1E1E
+}
+
+html[lang^="nm"] .link,
+html[lang^="nm"] .side,
+html[lang^="nm"] .side .md blockquote,
+html[lang^="nm"] .side .help blockquote,
+html[lang^="nm"] .sidecontentbox .content,
+html[lang^="nm"] .icon-menu a,
+html[lang^="nm"] .nav-buttons,
+html[lang^="nm"] .footer,
+html[lang^="nm"] .commentarea,
+html[lang^="nm"] .commentarea .menuarea,
+html[lang^="nm"] #preview-table,
+html[lang^="nm"] .stylesheet-customize-container #images,
+html[lang^="nm"] .pretty-form,
+html[lang^="nm"] .formtabs-content .infobar,
+html[lang^="nm"] .roundfield,
+html[lang^="nm"] .wiki-page>.content {
+    background: #262626
+}
+
+html[lang^="nm"] .roundfield textarea,
+html[lang^="nm"] .roundfield input[type=text],
+html[lang^="nm"] .roundfield input[type=url],
+html[lang^="nm"] .roundfield input[type=password],
+html[lang^="nm"] .roundfield input[type=number],
+html[lang^="nm"] .usertext-edit textarea,
+html[lang^="nm"] .pretty-form input[type=text],
+html[lang^="nm"] .pretty-form textarea,
+html[lang^="nm"] .pretty-form input[type=password],
+html[lang^="nm"] .pretty-form input[type=number],
+html[lang^="nm"] #stylesheet_contents,
+html[lang^="nm"] #preview-table>table,
+html[lang^="nm"] .stylesheet-customize-container #images .image-upload input#img-name {
+    background: #262626;
+    border: 1px solid #2c2c2c!important;
+    color: #888;
+    outline: 0
+}
+
+html[lang^="nm"] ul#image-preview-list li {
+    background: #262626;
+    border-bottom: 2px solid #1f1f1f
+}
+
+html[lang^="nm"] .panestack-title {
+    border-bottom: 1px solid #2c2c2c
+}
+
+html[lang^="nm"] .comment .child,
+html[lang^="nm"] .comment .showreplies {
+    border-left: 1px solid #2c2c2c
+}
+
+html[lang^="nm"] textarea:focus,
+html[lang^="nm"] input#sr-autocomplete:focus,
+html[lang^="nm"] .usertext-edit textarea:focus,
+html[lang^="nm"] .roundfield input[type=url]:focus {
+    border: 1px solid #383838
+}
+
+html[lang^="nm"] .titlebox form.toggle,
+html[lang^="nm"] .leavemoderator,
+html[lang^="nm"] .side .titlebox .tagline,
+html[lang^="nm"] .titlebox .bottom,
+html[lang^="nm"] .footer-parent,
+html[lang^="nm"] .account-activity-box,
+html[lang^="nm"] .sidebox.create .spacer,
+html[lang^="nm"] .linkinfo,
+html[lang^="nm"] #ad-frame,
+html[lang^="nm"] #ad_main,
+html[lang^="nm"] span.subscribers,
+html[lang^="nm"] .users-online {
+    background: #232323
+}
+
+html[lang^="nm"] .linkinfo .shortlink input {
+    border: 1px solid #262626!important;
+    background: #262626;
+    color: #888
+}
+
+html[lang^="nm"] .flair {
+    background: #6b6b6b;
+    border: 1px solid #222;
+    color: #222
+}
+
+html[lang^="nm"] .link .usertext .md,
+html[lang^="nm"] .linkflairlabel,
+html[lang^="nm"] .menuarea .dropdown.lightdrop .selected,
+html[lang^="nm"] .menuarea .drop-choices.lightdrop {
+    background: #232323;
+    border: 1px solid #232323
+}
+
+html[lang^="nm"] .footer-parent {
+    border-top: 5px solid #262626
+}
+
+html[lang^="nm"] .side .md blockquote h3,
+html[lang^="nm"] .sidecontentbox .title {
+    border-bottom: 2px solid #232323
+}
+
+html[lang^="nm"] .thing a.title:hover {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.2)
+}
+
+html[lang^="nm"] .thing .title,
+html[lang^="nm"] .side .md blockquote,
+html[lang^="nm"] .wiki-page .md.wiki blockquote h3 {
+    color: #aaa
+}
+
+html[lang^="nm"] span.score,
+html[lang^="nm"] .tagline a {
+    color: #aaa
+}
+
+html[lang^="nm"] .thing .title:visited,
+html[lang^="nm"] .link .entry li .comments,
+html[lang^="nm"] .redditSingleClick,
+html[lang^="nm"] .commentarea {
+    color: #666
+}
+
+html[lang^="nm"] .entry .buttons li a,
+html[lang^="nm"] .tagline,
+html[lang^="nm"] .link .flat-list,
+html[lang^="nm"] .domain,
+html[lang^="nm"] .domain a,
+html[lang^="nm"] .titlebox form.toggle,
+html[lang^="nm"] .leavemoderator,
+html[lang^="nm"] #searchexpando label,
+html[lang^="nm"] .morelink a,
+html[lang^="nm"] .linkinfo .date {
+    color: #5f5f5f
+}
+
+html[lang^="nm"] .RES-keyNav-activeElement,
+html[lang^="nm"] .commentarea .RES-keyNav-activeElement .md,
+html[lang^="nm"] .commentarea .RES-keyNav-activeElement.entry .noncollapsed {
+    background-color: #2B2C2D!important
+}
+
+html[lang^="nm"] #sr-header-area a {
+    color: #fff
+}
+
+html[lang^="nm"] .link.last-clicked {
+    border-top: 1px dashed #444;
+    border-bottom: 1px dashed #444
+}
+
+html[lang^="nm"] .morelink {
+    background: #1e1e1e!important
+}
+
+html[lang^="nm"] .morelink:hover {
+    opacity: .6
+}
+
+html[lang^="nm"] .fancy-toggle-button .remove,
+html[lang^="nm"] .RESshortcutside.remove,
+html[lang^="nm"] .RESDashboardToggle.remove,
+html[lang^="nm"] .RESDashboardToggle,
+html[lang^="nm"] .RESshortcutside {
+    background: #232323!important;
+    border: 1px solid #232323!important
+}
+
+html[lang^="nm"] .fancy-toggle-button .remove:hover,
+html[lang^="nm"] .RESshortcutside.remove:hover,
+html[lang^="nm"] .RESDashboardToggle.remove:hover {
+    background: #c45b52!important;
+    border: 1px solid #c45b52!important
+}
+
+html[lang^="nm"] .expando-button.image.expanded {
+    background-position: -40px -98px!important
+}
+
+html[lang^="nm"] .expando-button.image.expanded:hover {
+    background-position: -60px -98px!important
+}
+
+html[lang^="nm"] .expando-button.image.collapsed {
+    background-position: -40px -98px!important
+}
+
+html[lang^="nm"] .expando-button.image.collapsed:hover {
+    background-position: -60px -98px!important
+}
+
+html[lang^="nm"] .expando-button.selftext.collapsed {
+    background-position: -40px -38px!important
+}
+
+html[lang^="nm"] .expando-button.selftext.collapsed:hover {
+    background-position: -60px -38px!important
+}
+
+html[lang^="nm"] .expando-button.selftext.expanded {
+    background-position: -40px -58px!important
+}
+
+html[lang^="nm"] .expando-button.selftext.expanded:hover {
+    background-position: -60px -58px!important
+}
+
+html[lang^="nm"] .expando-button.video.collapsed {
+    background-position: -40px -78px!important
+}
+
+html[lang^="nm"] .expando-button.video.collapsed:hover {
+    background-position: -60px -78px!important
+}
+
+html[lang^="nm"] .expando-button.video.expanded {
+    background-position: -40px -78px!important
+}
+
+html[lang^="nm"] .expando-button.video.expanded:hover {
+    background-position: -60px -78px!important
+}
+
+html[lang^="nm"] .md .-text,
+html[lang^="nm"] .md p,
+html[lang^="nm"] .md pre>code,
+html[lang^="nm"] .md th,
+html[lang^="nm"] .md td,
+html[lang^="nm"] .md li {
+    color: #999
+}
+
+html[lang^="nm"] .md pre {
+    border: 1px solid #222221;
+    background-color: #272726
+}
+
+html[lang^="nm"] .wiki-page .md pre {
+    border: 1px solid #222;
+    background-color: #222
+}
+
+html[lang^="nm"] #search input[type=text] {
+    border-bottom: 2px solid #222!important;
+    background: transparent;
+    color: #eee!important
+}
+
+html[lang^="nm"] .searchpane {
+    background: #262626;
+    color: #ccc
+}
+
+html[lang^="nm"] .menuarea {
+    background: #262626
+}
+
+html[lang^="nm"] #searchexpando {
+    background: #262626
+}
+
+html[lang^="nm"] #moresearchinfo {
+    border-top: 1px solid #232323
+}
+
+html[lang^="nm"] .thumbnail {
+    border: 2px solid #222
+}
+
+html[lang^="nm"] #ad_sponsorship {
+    border: 1px solid #222
+}
+
+html[lang^="nm"] .sidecontentbox .collapse-button {
+    background: #222;
+    border: 1px solid #222
+}
+
+html[lang^="nm"] .res #progressIndicator,
+html[lang^="nm"] .res .NERPageMarker,
+html[lang^="nm"] .res #NERFail {
+    background: #2B2C2D;
+    border: 1px solid #2E3032
+}
+
+html[lang^="nm"] .link .md:not(pre)>code,
+html[lang^="nm"] .wiki-page:not(pre)>code {
+    background: #6B6B6B;
+    border: 1px solid #6B6B6B;
+    color: #222
+}
+
+html[lang^="nm"] .side .md h4:first-of-type {
+    background: #262626;
+    color: #666
+}
+
+.titlebox .md a[href*="#nm"],
+.titlebox .md a[href*="#dm"] {
+    background: rgba(0, 0, 0, 0.1);
+    right: 25px;
+    top: 45px;
+    padding: 7px 12px;
+    position: absolute;
+    z-index: 9999;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    transition: 200ms
+}
+
+.titlebox .md a[href*="#nm"]:hover,
+.titlebox .md a[href*="#dm"]:hover {
+    background: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.titlebox .md a[href*="#nm"] {
+    display: block
+}
+
+.titlebox .md a[href*="#dm"] {
+    display: none
+}
+
+html[lang^="nm"] .titlebox .md a[href*="#dm"] {
+    display: block
+}
+
+html[lang^="nm"] .titlebox .md a[href*="#nm"] {
+    display: none
+}
+
+html[lang^="nm"] .footer-parent:before {
+    background: rgba(0, 0, 0, 0.05)
+}
+
+html[lang^="nm"] .nextprev a,
+html[lang^="nm"] .next-suggestions a,
+html[lang^="nm"] .res .RESCloseButton {
+    background: #1F1F1F;
+    border: 1px solid #1d1d1d;
+    box-shadow: 0 1px #1d1d1d;
+    color: #999
+}
+
+html[lang^="nm"] #url-field button {
+    background-color: #1F1F1F;
+    border: 1px solid #1d1d1d;
+    box-shadow: 0 1px #1d1d1d;
+    color: #999
+}
+
+html[lang^="nm"] .markdownEditor .edit-btn:not(.btn-macro),
+html[lang^="nm"] .res .RESBigEditorPop {
+    background-color: #6B6B6B;
+    border: 1px solid #1d1d1d;
+    box-shadow: 0 1px #1d1d1d;
+    color: #1D1D1B
+}
+
+html[lang^="nm"] .res .RESSubscriptionButton {
+    background: #2F2F2F!important;
+    border: 1px solid #424242!important;
+    box-shadow: 0 1px #424242
+}
+
+html[lang^="nm"] .nextprev a:hover,
+html[lang^="nm"] .next-suggestions a:hover {
+    background: #232323;
+    border: 1px solid #1f1f1f
+}
+
+html[lang^="nm"] .res #RESStyleSheetTipPane {
+    border: 1px solid #1e1e1e
+}
+
+html[lang^="nm"] .res #RESStyleSheetTipPane-header {
+    border-bottom: 1px solid #1e1e1e
+}
+
+.res .titlebox .md a[href*="#nm"],
+.res .titlebox .md a[href*="#dm"] {
+    right: 15px!important;
+    top: 35px!important
+}
+
+.md .-text,
+.md p,
+.md pre>code,
+.md th,
+.md td,
+.md li {
+    line-height: 1.5em;
+    font-size: 14px;
+    color: #444
+}
+
+.md .-lists,
+.md ul,
+.md ol,
+.usertext-edit textarea .-lists,
+.usertext-edit textarea ul,
+.usertext-edit textarea ol {
+    padding-left: 30px
+}
+
+.wiki-page .infobar,
+.content .infobar {
+    margin-top: 40px;
+    border: 1px solid #ffa500;
+    border-radius: 2px;
+    background: #fff8d7;
+    border: 0;
+    padding: 10px 15px;
+    width: calc(100% - 20px)
+}
+
+.wiki-page .infobar .md p {
+    font-size: 16px
+}
+
+.wiki-page .wikititle {
+    margin-left: 15px;
+    border-radius: 2px;
+    color: #999;
+    vertical-align: -6px
+}
+
+.wiki-page .pageactions {
+    border: 0;
+    margin-top: 5px;
+    margin-left: 15px
+}
+
+.wiki-page .pageactions .wikiaction {
+    text-decoration: none;
+    color: #999;
+    padding: 6px 10px;
+    font-size: 14px
+}
+
+.wiki-page .pageactions .wikiaction:hover {
+    background-color: rgba(0, 0, 0, 0.05)
+}
+
+.wiki-page .pageactions .wikiaction-current {
+    background: rgba(0, 0, 0, 0.1);
+    color: #999
+}
+
+.wiki-page .pageactions .wikiaction-current:hover {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.wiki-page>.content {
+    background: #fff
+}
+
+.wiki-page .wiki-page-content {
+    background: transparent;
+    margin: 5px 10px 10px 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    border-top: 2px solid #f9f9f9
+}
+
+.wiki-page .wiki-page-content .md blockquote,
+.wiki-page .wiki-page-content .help blockquote {
+    border: 0;
+    background: transparent
+}
+
+.wiki-page .md.wiki blockquote h3 {
+    font-size: 17px
+}
+
+.wiki-page-content .md h4 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px
+}
+
+.wiki-page .wiki p {
+    font-size: 14px
+}
+
+.wiki-page em {
+    color: #888;
+    font-size: 14px
+}
+
+.wiki-page .wiki a {
+    color: #5e82a6
+}
+
+.wiki-page .wiki-page-content hr {
+    border: 1px solid #bababa
+}
+
+.wiki-page .wiki-page-content .wiki>.toc>ul {
+    padding: 12px 14px;
+    border: 1px solid #F0F0F0;
+    box-shadow: 0 0 8px #F5F5F5;
+    border-radius: 2px
+}
+
+.linkflair-invalid .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/Zi9pPuIx9kz0HTHmw0R5_Yov1X_d8trTJpIFEYUpb3A.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-diplomacy .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/nIbvkRkQLRspq21ktGV1UISgJOn5qk3VD1XZJxpvUqE.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-war .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/PcWQyYPnsrsBASgn8y5_phBcqxsUTWa6Z3jTcJ-JbEY.png");
+    border: 0;
+    height: 18px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-research .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/ndpSXDy7noJ6-GbOs-w1ZAQo5cuVLZwdEk3lCZGlBtU.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-big-event .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/-TEpBd0aMvaw26aaXgSSeUTl8XsFCSV5_OcozsYSBxk.png");
+    border: 0;
+    height: 18px;
+    width: 60px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair--event- .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/Tde3Xh3ZPSgBtmVnZrz2qtCGSkmhTm8rZzrQaHZUNnQ.png");
+    border: 0;
+    height: 18px;
+    width: 60px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-claim .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/O_F_XhVXryJ_IjF2E1AMKbABs22lXcHsftco9tPnsGk.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-election .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/2s4240bi7J5ra-QDlhOtDFdUxFokQK3nVWhqJqlGKuE.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-minimodevent .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/PVEz-tWVhzmF9KpvbS51m2dddWayS_46oayw3gFugXM.png");
+    border: 0;
+    height: 18px;
+    width: 120px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-conflict .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/NoVV_Ffk4p24kDiVgyCsVXbrtJZiJKcUzeGn43zrrwg.png");
+    border: 0;
+    height: 18px;
+    width: 59px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-expansion .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/nMG-jZCiGMdJSv3ts1o4tjjIKs-LNswDOB1l3dk6wbE.png");
+    border: 0;
+    height: 18px;
+    width: 59px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-meta .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/f-Rawkh_ARxkH1QesiADtxejNUgp1RG4VAx2fApw0DM.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-mod-event .linkflairlabel {
+    background: url("//a.thumbs.redditmedia.com/T13jitUacb4LnzB245Fd783M_SNGKhgIBc4-DtGmok0.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-modpost .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/hth7a32-OWYnm-Uc2FFIX2N353tRBb8BclbCKem60tU.png");
+    border: 0;
+    height: 18px;
+    width: 61px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-treaty .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/hgTFVzXke92_mUzEdXpiQ7okGR5DlB3GmDJeSC16-4g.png");
+    border: 0;
+    height: 18px;
+    width: 62px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-secret .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/UZOo1hduBORi9nyfQrJbBSgM0oZDOm08aMOVW0dGDLw.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-espionage .linkflairlabel {
+    background: url("//a.thumbs.redditmedia.com/urBeuvHrCRIYLBtQk3pDGFpIgfABwZuB2SgCW4yqx48.png");
+    border: 0;
+    height: 18px;
+    width: 60px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-Maps .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/DxBdkLvKkQMcwklKZrj7RVpZHJoPkl4LSmj4QOENhYQ.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-UN .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/BqsOxmILJVGLWjiNeh31dLnEPJbiW7A70Auo7IYAbEA.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-Budget .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/Iy9AT1XT-EWmHMAi1XigLIrDTDc1mgGC_uiHJYdRaNI.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-Procurement .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/NvmxTCjHnA6lf-QLOD89UBmLmRM9srASeSgv88N_i7A.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-battle .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/kmB3Q_e1JTcBhL4Vb_IAQT-fb7U_e2yNNrQ_ChHC6nk.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-date .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/NqsG9qJzRC9eZlDro3wsO5d8ld5l9jE2uMa9JotRkUI.png");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.linkflair-polandball .linkflairlabel {
+    background: url("//b.thumbs.redditmedia.com/sT9hFb8ZXYbSSTVVEsa0qPBwaEja-49uEqnv0ZLGxaw.png");
+    border: 0;
+    height: 19px;
+    width: 64px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
+.arrow.down:hover:before {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 210px;
+    padding: 5px;
+    border: 0px solid #333;
+    background: #000000;
+    content: "Downvoting is rude and is against subreddit rules unless it detracts from the conversation. Don't downvote things that are in meta.";
+    text-align: center;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 5px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px
+}
+
+.sidebox.submit-text {
+    display: none
+}
+
+.sidebox.submit-link {
+    display: none
+}
+
+.link .down:hover:before {
+    content: "Downvoting is rude and is against subreddit rules unless it detracts from the conversation. Don't downvote things that are in meta.";
+    position: absolute;
+    z-index: 99;
+    margin: -3em 0 0 2em;
+    padding: .3em;
+    border: .1em dashed;
+    background: orangered;
+    font-size: x-small;
+    font-weight: bold;
+    width: 20em;
+    text-align: center
+}
+
+.side a[href$="#button"] {
+    display: block;
+    background: #23A487;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    width: 250px
+}
+
+.titlebox blockquote {
+    border: 1px solid #AAA;
+    text-shadow: 0 1px 0 white;
+    color: #787878;
+    font-weight: bold;
+    border-radius: 10px
+}
+
+.titlebox {
+    padding: 10px;
+    background: transparent;
+    border: 1px solid #AAA;
+    color: #787878;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px
+}
+
+.titlebox .md h3+ul {
+    margin: 0 2em;
+    padding: 3px
+}
+
+.titlebox .md h3,
+div.titlebox .md h3 a {
+    color: #eee
+}
+
+.titlebox .md h3+ul li:hover {
+    background-color: #eee
+}
+
+.res-nightmode .titlebox .md h3+ul li:hover {
+    background-color: #393939
+}
+
+.titlebox .md h3 {
+    background-color: #23A487;
+    color: white;
+    width: 280px;
+    line-height: 23px;
+    font-weight: normal;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+    margin-top: 4px;
+    margin-left: -11px;
+    text-align: center
+}
+
+.res-nightmode .titlebox .md h3 {
+    background-color: #7a9642
+}
+
+.titlebox .md h3:after {
+    margin-bottom: 10px
+}
+
+.titlebox .md h3+ul {
+    line-height: 1.7em
+}
+
+.thumbnail.self {
+    display: none
+}
+
+#header .tabmenu li:nth-of-type(3),
+.tabmenu li:nth-of-type(4),
+.tabmenu li:nth-of-type(6) {
+    display: none;
+    visibility: hidden
+}
+
+#modmail,
+#chat {
+    display: none
+}
+
+#header-img.default-header {
+    position: relative;
+    margin-left: -1000px
+}
+
+.domain {
+    display: none
+}
+
+.side h4,
+.side h2 {
+    text-align: center
+}
