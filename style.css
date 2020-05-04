@@ -2547,11 +2547,15 @@ span.hover.pagename.redditname {
     padding: 12px 0 10px 6px
 }
 
-.res .entry.res-selected,
-.res .entry.res-selected .md-container {
+.res .entry.res-selected {
     background: #443a38!important;
     color: #9CAEA9!important;
     border: dashed 1px #788585
+}
+
+.res .entry.res-selected .md-container {
+    background: #443a38!important;
+    color: #9CAEA9!important;
 }
 
 .menuarea {
@@ -3695,10 +3699,6 @@ label[for=flair_enabled] {
     color: #CCDAD1
 }
 
-.roundfield textarea[name=title] {
-    color: #CCDAD1
-}
-
 .roundfield textarea,
 .roundfield input[type=text],
 .roundfield input[type=url],
@@ -3967,7 +3967,6 @@ form .spacer+.spacer {
 .pretty-form input[type=password],
 .pretty-form input[type=number] {
     font-size: 13px;
-    color: #CCDAD1;
     padding: 4px 8px;
     margin: 4px 4px 4px 0
 }
@@ -5100,7 +5099,7 @@ em a.author {
     vertical-align: middle
 }
 
-.linkflair--event- .linkflairlabel {
+.linkflair-event .linkflairlabel {
     background: url("%%flair-event%%");
     border: 0;
     height: 18px;
@@ -5388,7 +5387,7 @@ a.option.active {
     color: #83aad1
 }
 
-span.score {
+span.score, span.header {
     color: #CCDAD1!important
 }
 
@@ -5403,4 +5402,8 @@ span.score {
 
 .content h2 a{
     color: #4985c2
+}
+
+code {
+    color: #CCDAD1
 }
