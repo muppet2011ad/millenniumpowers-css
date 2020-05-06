@@ -217,7 +217,7 @@ div.content {
     font-weight: bold;
     line-height: auto;
     margin: 0 3px;
-    color: black
+    color: #CCDAD1
 }
 
 .side {
@@ -259,6 +259,12 @@ div.content {
     background-position: -96px 0
 }
 
+.flair-ambazonia {
+    width:32px;
+    height: 22px;
+    background-position: -160px -154px
+}
+
 .flair-americansamoa {
     width: 32px;
     height: 22px;
@@ -283,7 +289,7 @@ div.content {
     background-position: -224px 0
 }
 
-.flair-antigua {
+.flair-antiguaandbarbuda {
     width: 32px;
     height: 22px;
     background-position: -256px 0
@@ -391,7 +397,13 @@ div.content {
     background-position: -384px -22px
 }
 
-.flair-bosnia {
+.flair-bonaire {
+    width: 32px;
+    height: 22px;
+    background-position: -96px -132px
+}
+
+.flair-bosniaandherzegovina {
     width: 32px;
     height: 22px;
     background-position: -416px -22px
@@ -401,6 +413,12 @@ div.content {
     width: 32px;
     height: 22px;
     background-position: 0 -44px
+}
+
+.flair-bougainville {
+    width: 32px;
+    height: 22px;
+    background-position: -64px -176px
 }
 
 .flair-brazil {
@@ -463,7 +481,7 @@ div.content {
     background-position: -288px -66px
 }
 
-.flair-cape-verde {
+.flair-capeverde {
     width: 32px;
     height: 22px;
     background-position: -416px -44px
@@ -505,7 +523,7 @@ div.content {
     background-position: -192px -66px
 }
 
-.flair-china {
+.flair-peoplesrepublicofchina {
     width: 32px;
     height: 22px;
     background-position: -224px -66px
@@ -529,7 +547,7 @@ div.content {
     background-position: -384px -66px
 }
 
-.flair-congo {
+.flair-republicofthecongo {
     width: 32px;
     height: 22px;
     background-position: -416px -66px
@@ -565,7 +583,13 @@ div.content {
     background-position: -224px -88px
 }
 
-.flair-czech {
+.flair-czechoslovakia {
+    width: 32px;
+    height: 22px;
+    background-position: -288px -88px
+}
+
+.flair-czechia {
     width: 32px;
     height: 22px;
     background-position: -288px -88px
@@ -589,13 +613,13 @@ div.content {
     background-position: -416px -88px
 }
 
-.flair-dominicanrep {
+.flair-dominicanrepublic {
     width: 32px;
     height: 22px;
     background-position: 0 -110px
 }
 
-.flair-drcongo {
+.flair-democraticrepublicofthecongo {
     width: 32px;
     height: 22px;
     background-position: -32px -110px
@@ -607,7 +631,7 @@ div.content {
     background-position: -128px -110px
 }
 
-.flair-basque {
+.flair-basquecountry {
     width: 32px;
     height: 22px;
     background-position: -160px -110px
@@ -631,7 +655,7 @@ div.content {
     background-position: -192px -132px
 }
 
-.flair-equatorialguinea {
+.flair-equitorialguinea {
     width: 32px;
     height: 22px;
     background-position: -224px -132px
@@ -775,7 +799,7 @@ div.content {
     background-position: -256px -176px
 }
 
-.flair-guineabissau {
+.flair-guinea-bissau {
     width: 32px;
     height: 22px;
     background-position: -288px -176px
@@ -943,7 +967,7 @@ div.content {
     background-position: -352px -220px
 }
 
-.flair-kyrgystan {
+.flair-kyrgyzstan {
     width: 32px;
     height: 22px;
     background-position: -384px -220px
@@ -997,7 +1021,7 @@ div.content {
     background-position: -192px -242px
 }
 
-.flair-liechtenstein {
+.flair-lichtenstein {
     width: 32px;
     height: 22px;
     background-position: -256px -242px
@@ -1075,7 +1099,7 @@ div.content {
     background-position: -256px -264px
 }
 
-.flair-martinique {
+.flair-saintmartin {
     width: 32px;
     height: 22px;
     background-position: -288px -264px
@@ -1087,7 +1111,7 @@ div.content {
     background-position: -320px -264px
 }
 
-.flair-mauritus {
+.flair-mauritius {
     width: 32px;
     height: 22px;
     background-position: -352px -264px
@@ -1099,7 +1123,7 @@ div.content {
     background-position: -384px -264px
 }
 
-.flair-micronesia {
+.flair-federatedstatesofmicronesia {
     width: 32px;
     height: 22px;
     background-position: -416px -264px
@@ -1157,6 +1181,12 @@ div.content {
     width: 32px;
     height: 22px;
     background-position: -256px -286px
+}
+
+.flair-nagorno-karabakh {
+    width: 32px;
+    height: 16px;
+    background-position: -416px -179px
 }
 
 .flair-namibia {
@@ -1303,7 +1333,7 @@ div.content {
     background-position: -320px -330px
 }
 
-.flair-philippines {
+.flair-phillippines {
     width: 32px;
     height: 22px;
     background-position: -352px -330px
@@ -1351,7 +1381,7 @@ div.content {
     background-position: -192px -352px
 }
 
-.flair-russia {
+.flair-russianfederation {
     width: 32px;
     height: 22px;
     background-position: -224px -352px
@@ -1411,7 +1441,7 @@ div.content {
     background-position: -64px -374px
 }
 
-.flair-serbia {
+.flair-serbiaandmontenegro {
     width: 32px;
     height: 22px;
     background-position: -96px -374px
@@ -1495,19 +1525,25 @@ div.content {
     background-position: -128px -396px
 }
 
+.flair-republikasrpska {
+    width: 32px;
+    height: 15px;
+    background-position: -224px -245px
+}
+
 .flair-sthelena {
     width: 32px;
     height: 22px;
     background-position: -160px -396px
 }
 
-.flair-stlucia {
+.flair-saintlucia {
     width: 32px;
     height: 22px;
     background-position: -192px -396px
 }
 
-.flair-stvincentgrenadines {
+.flair-saintvincentandthegrenadines {
     width: 32px;
     height: 22px;
     background-position: -224px -396px
@@ -1525,7 +1561,7 @@ div.content {
     background-position: -288px -396px
 }
 
-.flair-swaziland {
+.flair-eswatini {
     width: 32px;
     height: 22px;
     background-position: -320px -396px
@@ -1555,7 +1591,7 @@ div.content {
     background-position: -448px -396px
 }
 
-.flair-taiwan {
+.flair-republicofchina {
     width: 32px;
     height: 22px;
     background-position: 0 -418px
@@ -1609,7 +1645,7 @@ div.content {
     background-position: -288px -418px
 }
 
-.flair-timorleste {
+.flair-easttimor {
     width: 32px;
     height: 22px;
     background-position: -320px -418px
@@ -1627,7 +1663,7 @@ div.content {
     background-position: -384px -418px
 }
 
-.flair-uae {
+.flair-unitedarabemirates {
     width: 32px;
     height: 22px;
     background-position: -416px -418px
@@ -1663,7 +1699,7 @@ div.content {
     background-position: -448px -110px
 }
 
-.flair-usa {
+.flair-unitedstatesofamerica {
     width: 32px;
     height: 22px;
     background-position: -448px -132px
@@ -1681,7 +1717,7 @@ div.content {
     background-position: -448px -176px
 }
 
-.flair-vatican {
+.flair-vaticancity {
     width: 23px;
     height: 22px;
     background-position: -453px -198px
@@ -1783,7 +1819,7 @@ div.content {
     background-position: -160px -198px
 }
 
-.flair-palestine-PNA {
+.flair-palestine {
     width: 32px;
     height: 22px;
     background-position: 0 -242px
@@ -1837,7 +1873,7 @@ div.content {
     background-position: -64px -330px
 }
 
-.flair-north-cyprus {
+.flair-northcyprus {
     width: 32px;
     height: 22px;
     background-position: -128px -352px
@@ -3111,7 +3147,7 @@ body.submit-page {
 }
 
 .side .md>p {
-    color: #5c4f4c
+    color: #CCDAD1
 }
 
 .side .md blockquote {
@@ -5284,7 +5320,6 @@ em a.author {
     text-align: center;
     font-size: 18px;
     text-decoration: none;
-    width: 250px
 }
 
 .titlebox blockquote {
@@ -5406,4 +5441,16 @@ span.score, span.header {
 
 code {
     color: #CCDAD1
+}
+
+.md h3 a {
+    margin-right: 21px;
+}
+
+.flair {
+    color: #CCDAD1;
+}
+
+.new-comment .usertext-body {
+    background-color: #5c4f4c;
 }
