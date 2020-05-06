@@ -5270,6 +5270,15 @@ em a.author {
     vertical-align: middle
 }
 
+.linkflair-skirmish .linkflairlabel {
+    background: url("%%flair-skirmish%%");
+    border: 0;
+    height: 17px;
+    width: 58px;
+    text-indent: -9999em;
+    vertical-align: middle
+}
+
 .arrow.down:hover:before {
     position: absolute;
     display: block;
